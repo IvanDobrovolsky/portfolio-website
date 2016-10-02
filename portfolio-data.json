@@ -1,7 +1,8 @@
 {
     "landing": {
+        "title": "Portfolio website",
         "home": {
-            "title": "Ivan Dobrovolskyi",
+            "name": "Ivan Dobrovolskyi",
             "position": "Full-stack web developer",
             "social": [
                 {
