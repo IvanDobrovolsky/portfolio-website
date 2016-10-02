@@ -31,11 +31,16 @@ const config = {
                 'src/assets/images/**/*.png',
                 'src/assets/images/**/*.gif',
                 'src/assets/images/**/*.svg'
+            ],
+            fonts: [
+                'node_modules/font-awesome/fonts/**/*.*',
             ]
         },
         stylesheets: {
             landing: [
-                './node_modules/bootstrap/dist/css/bootstrap.css',
+
+                'node_modules/bootstrap/dist/css/bootstrap.css',
+                'node_modules/font-awesome/css/font-awesome.css',
                 'src/assets/stylesheets/main-landing.less'
             ]
         },
@@ -84,7 +89,10 @@ gulp.task('css', () => {
 //Copy assets task images into build folder
 gulp.task('copy-assets', () => {
     gulp.src(config.files.all.images)
-        .pipe(gulp.dest('./build/images'));
+        .pipe(gulp.dest('./build/img'));
+
+    gulp.src(config.files.all.fonts)
+        .pipe(gulp.dest('./build/fonts'));
 });
 
 //Gulp dev-server task: starts express server
