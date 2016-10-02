@@ -1,0 +1,319 @@
+{
+    "landing": {
+        "home": {
+            "title": "Ivan Dobrovolskyi",
+            "position": "Full-stack web developer",
+            "social": [
+                {
+                    "name": "twitter",
+                    "className": "twitter",
+                    "icon": "fa fa-twitter",
+                    "link": "https://twitter.com/IDobrovosky"
+                },
+                {
+                    "name": "facebook",
+                    "className": "facebook",
+                    "icon": "fa fa-facebook",
+                    "link": "https://www.facebook.com/profile.php?id=100006213794793"
+                },
+                {
+                    "name": "linkedin",
+                    "className": "linkedin",
+                    "icon": "fa fa-linkedin",
+                    "link": "https://www.linkedin.com/profile/view?id=401185648&trk=nav_responsive_tab_profile"
+                },
+                {
+                    "name": "vk",
+                    "className": "vkontakte",
+                    "icon": "fa fa-vk",
+                    "link": "https://vk.com/id182497939"
+                },
+                {
+                    "name": "github",
+                    "className": "github",
+                    "icon": "fa fa-github-alt",
+                    "link": "https://github.com/IvanDobrovolsky/"
+                },
+                {
+                    "name": "google",
+                    "className": "google",
+                    "icon": "fa fa-google",
+                    "link": "https://plus.google.com/113360890867383399190/"
+                }
+            ]
+        },
+        "about": {
+            "info": {
+                "intro": "As an undergraduate of Internet Technology working in various web related roles, I have a wide range of skills: front end development, analytics, and back end development. I am aimed to work on a project with the full scope in mind. Clients find this approach to be extremely valuable as I willing to easily integrate with and provide experience and advice on all aspects of a project. ",
+                "main": "I am a dedicated, organized and methodical person. I have good interpersonal skills,I am an excellent team worker and I am keen on learning and developing new skills. I am reliable and dependable and often seek for new responsibilities within a wide band of employment areas. I have an active and dynamic approach to work and get things done. I am determined to make the most of working. I am ready to identify and develop opportunities. "
+            },
+            "hobbies": {
+                "title": "HOBBIES & INTERESTS",
+                "icons": [
+                    {
+                        "name": "Computers",
+                        "icon": "fa fa-laptop"
+                    },
+                    {
+                        "name": "Internet",
+                        "icon": "fa fa-globe"
+                    },
+                    {
+                        "name": "Science",
+                        "icon": "fa fa-area-chart"
+                    },
+                    {
+                        "name": "Innovation",
+                        "icon": "fa fa-space-shuttle"
+                    },
+                    {
+                        "name": "Linux",
+                        "icon": "fa fa-linux"
+                    },
+                    {
+                        "name": "Business",
+                        "icon": "fa fa-briefcase"
+                    },
+                    {
+                        "name": "R&D",
+                        "icon": "fa fa-connectdevelop"
+                    },
+                    {
+                        "name": "Communication",
+                        "icon": "fa fa-comments"
+                    },
+                    {
+                        "name": "English",
+                        "icon": "fa fa-language"
+                    },
+                    {
+                        "name": "Books",
+                        "icon": "fa fa-book"
+                    },
+                    {
+                        "name": "Sport",
+                        "icon": "fa fa-heartbeat"
+                    },
+                    {
+                        "name": "Health",
+                        "icon": "fa fa-medkit"
+                    }
+                ]
+            }
+        },
+        "services": {},
+        "projects": {},
+        "feedbacks": {},
+        "contacts": {
+            "details": {
+                "title": "Lets get in touch",
+                "items": [
+                    {
+                        "name": "Date of birth",
+                        "description": "Date of birth: 31.03.1994",
+                        "icon": "fa fa-calendar"
+                    },
+                    {
+                        "name": "telephone",
+                        "description": "+38 (093) 520 96 31",
+                        "icon": "fa fa-phone"
+                    },
+                    {
+                        "name": "email",
+                        "description": "dobrovolsky94@gmail.com",
+                        "icon": "fa fa-envelope-o"
+                    },
+                    {
+                        "name": "address",
+                        "description": "Kovalskyi street, 5. Kyiv, Ukraine",
+                        "icon": "fa fa-map-marker"
+                    }
+                ],
+                "signature": "Ivan Dobrovolsky",
+                "cv": {
+                    "placeholder": "resume",
+                    "icon": "fa fa-external-link"
+                }
+            }
+        }
+    },
+    "cv": {
+        "name": "Ivan Dobrovolskyi",
+        "position": "Full-stack web developer",
+        "objectives": "Seeking for a challenging and rewarding role in IT industry with the opportunity to work with the latest technologies on challenging and diverse projects. A result-oriented and self-motivated web developer. Want to use my technical background and expertise in developing software by using valuable resources within a growing organization.",
+        "photo": "",
+        "profile": [
+            {
+                "name": "full name",
+                "value": "Ivan Dobrovolskyi"
+            },
+            {
+                "name": "born",
+                "value": "31 Mar 1994 - Kyiv, Ukraine"
+            },
+            {
+                "name": "mobile",
+                "value": "+38 (093) 520 96 31"
+            },
+            {
+                "name": "email",
+                "value": "dobrovolsky94@gmail.com"
+            },
+            {
+                "name": "address",
+                "value": "Kovalsky street, 5 Kyiv, Ukraine"
+            }
+        ],
+        "education": [
+            {
+                "speciality": "COMPUTER SCIENCE",
+                "where": "Kyiv Polytechnic Institute",
+                "description": "National Technical University of Ukraine. Educational Scientific Complex 'Institute for Applied Systems Analysis'. The speciality is Computer Aided Design.",
+                "graduation": "June 2016"
+            },
+            {
+                "speciality": "M101JS: MONGODB FOR NODE.JS DEVELOPERS",
+                "where": "MongoDB University",
+                "description": "Learn basic installation of MongoDB, JSON, schema design, querying, insertion of data, indexing and working with language drivers. The course project involves building a blogging platform with MongoDB.",
+                "graduation": "September 2015"
+            },
+            {
+                "speciality": "BUSINESS ENGLISH",
+                "where": "Yappi School of Business English",
+                "description": "Successfully competed the Advanced level of Business English with the final grade A.",
+                "graduation": "June 2015"
+            }
+        ],
+        "experience": [
+            {
+                "company": "britver.com",
+                "position": "Cheif Technical Officer",
+                "responsibility": "Took a post in July 2015. Working over website development and analytics",
+                "period": "July 2015 - Current"
+            },
+            {
+                "company": "LEVI9 IT SERVICES",
+                "position": "Front end developer",
+                "responsibility": "Applied in September. Working upon commercial projects. Responsible for developing front end part of applications.",
+                "period": "September 2015 - Current"
+            }
+        ],
+        "skills": [
+            {
+                "type": "professional skills",
+                "items": [
+                    {
+                        "name": "Fundamentals of JavaScript programming language. EcmaScript6.",
+                        "icon": "fa fa-jsfiddle"
+                    },
+                    {
+                        "name": "Basics of C++, Java, Python",
+                        "icon": "fa fa-code"
+                    },
+                    {
+                        "name": "Algorithms and Data Structures",
+                        "icon": "fa fa-line-chart"
+                    },
+                    {
+                        "name": "Fundamentals of OOP, Functional programming, and Design Patterns",
+                        "icon": "fa fa-bars"
+                    },
+                    {
+                        "name": "HTML5, CSS3(LESS, SCSS), Responsive design",
+                        "icon": "fa fa-html5"
+                    },
+                    {
+                        "name": "Frameworks and tools: Bootstrap, Angular.js, Node.js, Gulp, Grunt, Webpack",
+                        "icon": "fa fa-wrench"
+                    },
+                    {
+                        "name": "JavaScript libraries: jQuery, Modernizr, D3.js, React.js",
+                        "icon": "fa fa-usd"
+                    },
+                    {
+                        "name": "Databases: MySQL, MongoDB, JSON, XML",
+                        "icon": "fa fa-database"
+                    },
+                    {
+                        "name": "CMS: WordPress",
+                        "icon": "fa fa-wordpress"
+                    },
+                    {
+                        "name": "Experience in working with git",
+                        "icon": "fa fa-github"
+                    },
+                    {
+                        "name": "Basics of MV* approach, Flux, Redux",
+                        "icon": "fa fa-archive"
+                    },
+                    {
+                        "name": "Basics of Networking: HTTP protocol, TCP/IP stack, web sockets",
+                        "icon": "fa fa-globe"
+                    },
+                    {
+                        "name": "JavaScript testing: Mocha, Jasmine, Karma, Protractor",
+                        "icon": "fa fa-check-circle"
+                    },
+                    {
+                        "name": " Agile software development(Scrum)",
+                        "icon": "fa fa-thumb-tack"
+                    }
+                ]
+            },
+            {
+                "type": "software skills",
+                "items": [
+                    {
+                        "name": "Operating Systems: Linux(Ubuntu, Debian), MSWindows, MacOS",
+                        "icon": "fa fa-terminal"
+                    },
+                    {
+                        "name": "Graphical editors: Photoshop",
+                        "icon": "fa fa-paint-brush"
+                    },
+                    {
+                        "name": "Office suites: MS Office, Libre Office",
+                        "icon": "fa fa-suitcase"
+                    }
+                ]
+            },
+            {
+                "type": "interpersonal skills",
+                "items": [
+                    {
+                        "name": "Languages: English(fluent), Russian(fluent), Ukrainian(native)",
+                        "icon": "fa fa-language"
+                    },
+                    {
+                        "name": "Listening skils, negotiation",
+                        "icon": "fa fa-comments"
+                    },
+                    {
+                        "name": "Fast learning, ability to find information quickly",
+                        "icon": "fa fa-globe"
+                    }
+                ]
+            }
+        ],
+        "interests": [
+            {
+                "type": "Informational Technology",
+                "about": "Innovations, Data Mining, Web technology, Machine Learning, Analytics"
+            },
+            {
+                "type": "sport",
+                "about": "Extreme sport, Cross-fit, Mixed Artial Arts(won KPI open championship in Novemver, 2014)"
+            },
+            {
+                "type": "books",
+                "about": "Science-fiction, social engineering"
+            }
+        ],
+        "projects": [],
+        "certificates": [],
+        "quote": {
+            "text": "Life is like riding a bike, to keep your balance you must keep moving",
+            "author": "Albert Einstein"
+        }
+    }
+}

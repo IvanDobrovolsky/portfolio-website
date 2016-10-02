@@ -9,6 +9,9 @@ const minify = require('gulp-minify-css');
 
 const os = require('os');
 const browser = os.platform() === 'linux' ? 'google-chrome' : (os.platform() === 'darwin' ? 'google chrome' : (os.platform() === 'win32' ? 'chrome' : 'firefox'));
+const fs = require('fs');
+
+const portFolioData = JSON.parse(fs.readFileSync('portfolio-data.json', 'utf8'));
 
 const config = {
   files: {
@@ -52,7 +55,8 @@ const config = {
 gulp.task('compile-jade', () => {
   gulp.src(config.files.jade.index)
     .pipe(jade({
-      pretty: true
+      pretty: true,
+      locals: portFolioData
     }))
     .pipe(gulp.dest('./build'));
 });
