@@ -1,4 +1,4 @@
-@default-space-value: 20px;
+@default-space-value: 10px;
 
 .default-margin-top {
   margin-top: @default-space-value;
@@ -59,4 +59,33 @@
 }
 .no-padding {
   padding: 0;
+}
+
+.rectangle(@width, @height) {
+  width: @width;
+  height: @height;
+}
+
+.square(@length) {
+  width: @length;
+  height: @length;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.auto-height {
+  height: auto;
+}
+.auto-width {
+  width: auto;
 }
