@@ -41,9 +41,9 @@ const config = {
         },
         stylesheets: {
             landing: [
-
                 'node_modules/bootstrap/dist/css/bootstrap.css',
                 'node_modules/font-awesome/css/font-awesome.css',
+                'src/assets/stylesheets/navigation.css',
                 'src/assets/stylesheets/main-landing.less'
             ]
         },
@@ -143,7 +143,7 @@ gulp.task('serve', ['dev-server'], function () {
 
 gulp.task('watch', ['serve'], () => {
     gulp.watch([config.files.data, config.files.all.jade], ['compile-jade']);
-    gulp.watch(config.files.all.less, ['css']);
+    gulp.watch(config.files.stylesheets.landing, ['css']);
     gulp.watch(config.files.all.js, ['scripts']);
 });
 
