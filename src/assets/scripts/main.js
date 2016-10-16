@@ -1,5 +1,11 @@
-var $ = jQuery = require('jquery');
+var jQuery = require('jquery');
 
-// var navigationHandler = require('./navigation');
+// var navigationHandler = require('./handlers/navigation-handler');
+var scrollHandler = require('./handlers/scroll-handler');
 
-$(document).ready(navigationHandler.bind($));
+jQuery(document).ready(function () {
+
+    scrollHandler(jQuery);
+    // navigationHandler(jQuery);
+
+});
