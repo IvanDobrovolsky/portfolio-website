@@ -32,9 +32,10 @@
             ]
         },
         "about": {
+            "title": "About me",
             "info": {
                 "intro": "As an undergraduate of Internet Technology working in various web related roles, I have a wide range of skills: front end development, analytics, and back end development. I am aimed to work on a project with the full scope in mind. Clients find this approach to be extremely valuable as I willing to easily integrate with and provide experience and advice on all aspects of a project. ",
-                "main": "I am a dedicated, organized and methodical person. I have good interpersonal skills,I am an excellent team worker and I am keen on learning and developing new skills. I am reliable and dependable and often seek for new responsibilities within a wide band of employment areas. I have an active and dynamic approach to work and get things done. I am determined to make the most of working. I am ready to identify and develop opportunities. "
+                "main": "I am a dedicated, organized and methodical person. I have good interpersonal skills, I am an excellent team worker and I am keen on learning and developing new skills. I am reliable and dependable and often seek for new responsibilities within a wide band of employment areas. I have an active and dynamic approach to work and get things done. I am determined to make the most of working. I am ready to identify and develop opportunities. "
             },
             "hobbies": {
                 "title": "HOBBIES & INTERESTS",
@@ -56,8 +57,8 @@
                         "icon": "fa fa-space-shuttle"
                     },
                     {
-                        "name": "Linux",
-                        "icon": "fa fa-linux"
+                        "name": "Apps",
+                        "icon": "fa fa-mobile"
                     },
                     {
                         "name": "Business",

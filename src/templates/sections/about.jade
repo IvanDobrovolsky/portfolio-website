@@ -1,0 +1,17 @@
+section.about#about.default-padding-bottom
+    div.container-fluid.text-center
+        div.row
+            div.col-lg-12.col-md-12.col-sm-12.col-xs-12
+                h2.about-title.section-title.text-uppercase #{landing.about.title}
+                span.section-border
+                div.about-info
+                    p.about-info-intro #{landing.about.info.intro}
+                    p.about-info-main  #{landing.about.info.main}
+        div.row
+            div.col-lg-12.col-md-12.col-sm-12.col-xs-12.about-hobbies
+                h4.about-hobbies-title.text-uppercase #{landing.about.hobbies.title}
+                ul.about-hobbies-icon--list
+                    each hobbyIcon in landing.about.hobbies.icons
+                        li.about-hobbies-icon--list-item
+                            i.about-hobbies-icon--list-item---icon(class="#{hobbyIcon.icon}")
+                            span.about-hobbies-icon--list-item---name #{hobbyIcon.name}
