@@ -1,8 +1,16 @@
 @import "reset";
+@import "palette";
 
 @import "pages/landing/home";
 @import "pages/landing/about";
 
 body {
   font-family: "Montserrat", sans-serif;
+
+  #cd-main-nav {
+    li:first-child a{
+      color: @text-color-tertiary;
+      font-size: 14px;
+    }
+  }
 }

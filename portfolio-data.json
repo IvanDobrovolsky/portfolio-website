@@ -1,4 +1,37 @@
 {
+    "navigation": {
+        "title": "Menu",
+        "items": [
+            {
+                "label": "Home",
+                "reference": "/"
+            },
+            {
+                "label": "About",
+                "reference": "#about"
+            },
+            {
+                "label": "Services",
+                "reference": "#services"
+            },
+            {
+                "label": "Projects",
+                "reference": "#projects"
+            },
+            {
+                "label": "Clients",
+                "reference": "#clients"
+            },
+            {
+                "label": "Contacts",
+                "reference": "#contacts"
+            },
+            {
+                "label": "CV",
+                "reference": "/cv.html"
+            }
+        ]
+    },
     "landing": {
         "title": "Portfolio website",
         "home": {

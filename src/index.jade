@@ -7,6 +7,8 @@ html
         link(href='http://fonts.googleapis.com/css?family=Raleway', rel='stylesheet', type='text/css')
         link(rel="stylesheet", href="css/landing.css")
     body
-        include templates/sections/home
-        include templates/sections/about
-        script(src="js/main.js")
+        include templates/navigation
+        main
+            include templates/sections/home
+            include templates/sections/about
+    script(src="js/main.js")
