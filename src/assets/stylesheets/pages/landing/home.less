@@ -1,0 +1,140 @@
+@import "../../palette";
+@import "../../custom";
+
+.home {
+  background-color: transparent;
+  background-image: url("../img/landing-home-bg.jpg");
+  background-attachment: scroll !important;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  &-overlay {
+    .full-height;
+    background: rgba(53, 60, 79, 0.8) none repeat scroll 0 0;
+    min-height: 1100px;
+    position: relative;
+  }
+
+  &-info {
+    text-transform: uppercase;
+
+    &--name {
+      color: #FFF;
+      .bold;
+      font-size: 70px;
+      margin-top: 530px;
+    }
+
+    &--position {
+      color: @background-color-tertiary;
+      .bold;
+      font-size: 33px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &-social {
+
+    &-item {
+      display: inline-block;
+      .default-padding-right;
+
+      &--link {
+        opacity: 0.6;
+        display: block;
+        font-size: 15px;
+        line-height: 34px;
+        .square(36px);
+        .no-padding;
+        .rounded;
+        cursor: pointer;
+        border: 1px solid @text-color-quaternary;
+        color: @text-color-quaternary;
+
+        &:hover, &:visited {
+          color: @text-color-quaternary;
+          opacity: 1;
+        }
+      }
+    }
+
+
+    /* social icon hovers */
+    .facebook:hover, .facebook:active {
+      background-color: #3c5fac;
+      border-color: #3c5fac;
+    }
+
+    .twitter:hover {
+      background-color: #5ec3df;
+      border-color: #5ec3df;
+    }
+
+    .linkedin:hover {
+      background-color: #2089b5;
+      border-color: #2089b5;
+    }
+
+    .github:hover {
+      background-color: #000000;
+      border-color: #000000;
+    }
+  }
+
+  &-avatar {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    &-portrait {
+      border: 10px solid #eff0f4;
+      .rounded;
+      .square(460px);
+      background: #C7CFD1 url("../img/landing-home-portrait.png") no-repeat 54% 0%;
+      transform: rotate(7.5deg);
+    }
+  }
+}
+
+@media (max-device-width: 992px) {
+  .home {
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    &-overlay {
+      min-height: 2100px;
+    }
+
+    &-info {
+      background-size: 100% auto;
+
+      &--name {
+        margin-top: 800px;
+      }
+
+      &--position {
+        margin: 43px 0 71px;
+        font-size: 50px;
+      }
+    }
+
+    &-social-item {
+      margin: 20px 40px 0;
+
+
+      &--link {
+        transform: scale(3, 3);
+      }
+    }
+
+    &-avatar-portrait {
+      .square(850px);
+      background-origin: padding-box;
+      background-position: 141% 0%;
+      background-size: 95%;
+    }
+  }
+}

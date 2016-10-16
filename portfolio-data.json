@@ -3,31 +3,13 @@
         "title": "Portfolio website",
         "home": {
             "name": "Ivan Dobrovolskyi",
-            "position": "Full-stack web developer",
+            "position": "Front end specialist",
             "social": [
-                {
-                    "name": "twitter",
-                    "className": "twitter",
-                    "icon": "fa fa-twitter",
-                    "link": "https://twitter.com/IDobrovosky"
-                },
-                {
-                    "name": "facebook",
-                    "className": "facebook",
-                    "icon": "fa fa-facebook",
-                    "link": "https://www.facebook.com/profile.php?id=100006213794793"
-                },
                 {
                     "name": "linkedin",
                     "className": "linkedin",
                     "icon": "fa fa-linkedin",
                     "link": "https://www.linkedin.com/profile/view?id=401185648&trk=nav_responsive_tab_profile"
-                },
-                {
-                    "name": "vk",
-                    "className": "vkontakte",
-                    "icon": "fa fa-vk",
-                    "link": "https://vk.com/id182497939"
                 },
                 {
                     "name": "github",
@@ -36,10 +18,16 @@
                     "link": "https://github.com/IvanDobrovolsky/"
                 },
                 {
-                    "name": "google",
-                    "className": "google",
-                    "icon": "fa fa-google",
-                    "link": "https://plus.google.com/113360890867383399190/"
+                    "name": "twitter",
+                    "className": "twitter",
+                    "icon": "fa fa-twitter",
+                    "link": "https://twitter.com/IDobrovolsky"
+                },
+                {
+                    "name": "facebook",
+                    "className": "facebook",
+                    "icon": "fa fa-facebook",
+                    "link": "https://www.facebook.com/profile.php?id=100006213794793"
                 }
             ]
         },

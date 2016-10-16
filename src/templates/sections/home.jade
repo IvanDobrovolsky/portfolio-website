@@ -1,0 +1,15 @@
+section#home.home
+    div.home-overlay
+        div.container-fluid
+            div.row
+                div.col-lg-12.col-md-12.col-sm-12.col-xs-12
+                    div.home-info.text-center
+                        h2.home-info--name #{landing.home.name}
+                        h3.home-info--position.default-margin-vertical #{landing.home.position}
+                    ul.home-social.text-center
+                        each socialItem in landing.home.social
+                            li.home-social-item
+                                a(class="home-social-item--link #{socialItem.className} text-center", href="#{socialItem.link}", target="_blank")
+                                    i(class="home-social-item--icon #{socialItem.icon}")
+        div.home-avatar.text-center.center-block
+            div.home-avatar-portrait.center-block
