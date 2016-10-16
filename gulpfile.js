@@ -12,13 +12,12 @@ const os = require('os');
 
 const browser = os.platform() === 'linux' ? 'google-chrome' : (os.platform() === 'darwin' ? 'google chrome' : (os.platform() === 'win32' ? 'chrome' : 'firefox'));
 
-const portFolioData = JSON.parse(fs.readFileSync('portfolio-data.json', 'utf8'));
-
 const config = {
     files: {
         build: {
             css: 'build/css/main.css'
         },
+        data: 'portfolio-data.json',
         server: 'server.js',
         all: {
             src: 'src/**/*.*',
@@ -61,6 +60,9 @@ const config = {
 
 //Gulp compile-jade task: jade -> html
 gulp.task('compile-jade', () => {
+
+    const portFolioData = JSON.parse(fs.readFileSync('portfolio-data.json', 'utf8'));
+
     gulp.src(config.files.jade.index)
         .pipe(jade({
             pretty: true,
@@ -104,7 +106,8 @@ gulp.task('dev-server', ['compile-jade', 'css', 'copy-assets'], (cb) => {
         script: config.files.server,
         ignore: [
             config.files.all.src,
-            config.files.all.build
+            config.files.all.build,
+            config.files.data
         ]
     }).on('start', () => {
         console.log(`Dev server: started ${new Date().toLocaleString()}`);
@@ -123,7 +126,7 @@ gulp.task('serve', ['dev-server'], function () {
 });
 
 gulp.task('watch', ['serve'], () => {
-    gulp.watch(config.files.all.jade, ['compile-jade']);
+    gulp.watch([config.files.data, config.files.all.jade], ['compile-jade']);
     gulp.watch(config.files.all.less, ['css']);
 });
 
