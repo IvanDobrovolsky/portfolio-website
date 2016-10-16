@@ -6,6 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
 const concat = require('gulp-concat');
 const minify = require('gulp-minify-css');
+const browserify = require('gulp-browserify');
 
 const fs = require('fs');
 const os = require('os');
@@ -33,6 +34,9 @@ const config = {
             ],
             fonts: [
                 'node_modules/font-awesome/fonts/**/*.*',
+            ],
+            js: [
+                'src/assets/scripts/**/*.js'
             ]
         },
         stylesheets: {
@@ -88,8 +92,20 @@ gulp.task('css', () => {
     //TODO Do the same for cv page
 });
 
+//Gulp task scripts - for bundling, uglification
+gulp.task('scripts', () => {
+
+    // Single entry point to browserify
+    gulp.src('src/assets/scripts/main.js')
+        .pipe(browserify({
+            insertGlobals : true,
+            debug : false
+        }))
+        .pipe(gulp.dest('./build/js'))
+});
+
 //Copy assets task images into build folder
-gulp.task('copy-assets', () => {
+gulp.task('copy-assets', ['scripts'], () => {
     gulp.src(config.files.all.images)
         .pipe(gulp.dest('./build/img'));
 
@@ -128,6 +144,7 @@ gulp.task('serve', ['dev-server'], function () {
 gulp.task('watch', ['serve'], () => {
     gulp.watch([config.files.data, config.files.all.jade], ['compile-jade']);
     gulp.watch(config.files.all.less, ['css']);
+    gulp.watch(config.files.all.js, ['scripts']);
 });
 
 gulp.task('default', ['watch']);
