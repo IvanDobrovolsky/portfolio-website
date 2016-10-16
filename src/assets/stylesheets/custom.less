@@ -1,4 +1,6 @@
-@default-space-value: 10px;
+@import "palette";
+
+@default-space-value: 25px;
 
 .default-margin-top {
   margin-top: @default-space-value;
@@ -92,4 +94,25 @@
 
 .bold {
   font-weight: 800;
+}
+
+.block {
+  display: block;
+}
+
+//reusable section styles
+.section-border {
+  .block;
+  margin: 20px auto;
+  width: 80px;
+  height: 2px;
+  background-color: @text-color-tertiary;
+}
+.section-title {
+  .no-padding;
+  .block;
+  .bold;
+  margin: 27px 0;
+  font-size: 60px;
+  color: @text-color-primary;
 }
