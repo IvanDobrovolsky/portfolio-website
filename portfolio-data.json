@@ -128,8 +128,9 @@
         "projects": {},
         "feedbacks": {},
         "contacts": {
+            "title": "Contact me",
             "details": {
-                "title": "Lets get in touch",
+                "title": "Let's get in touch",
                 "items": [
                     {
                         "name": "Date of birth",
@@ -152,10 +153,16 @@
                         "icon": "fa fa-map-marker"
                     }
                 ],
-                "signature": "Ivan Dobrovolsky",
+                "signature": "Ivan Dobrovolskyi",
                 "cv": {
-                    "placeholder": "resume",
-                    "icon": "fa fa-external-link"
+                    "title": "resume",
+                    "icon": "fa fa-external-link",
+                    "link": "/cv.html"
+                }
+            },
+            "map": {
+                "overlay": {
+                    "text": "Google's just found the most optimal driving route from your current location to mine. Click to explore more..."
                 }
             }
         }

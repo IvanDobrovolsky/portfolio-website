@@ -1,0 +1,137 @@
+@import "../../palette";
+@import "../../custom";
+
+.contacts {
+  &-details {
+
+    &-title {
+      font-family: "Raleway", sans-serif;
+      color: @text-color-primary;
+      .bold;
+    }
+
+    &-list {
+
+      &-item {
+        margin: 10px 0;
+
+        &--icon {
+          .rounded;
+          .square(42px);
+          line-height: 42px;
+          vertical-align: middle;
+          color: @text-color-quaternary;
+          background-color: @background-color-tertiary;
+        }
+
+        &--title {
+          color: @text-color-secondary;
+          .bold;
+          margin-left: 15px;
+          font-size: 16px;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+    }
+
+    &-signature {
+     color: @text-color-primary;
+      font-size: 30px;
+      font-family: 'Arizonia', cursive;
+    }
+
+    &-cv-link {
+      text-decoration: none;
+      color: @text-color-quaternary;
+      padding: 15px 0;
+      .block;
+      background: @background-color-tertiary;
+      border-radius: 5px;
+
+      &:visited, &:active, &:hover {
+        color: @text-color-quaternary;
+      }
+
+      &--title {
+        margin-left: 15px;
+      }
+    }
+  }
+
+
+  &-map {
+    min-height: 500px;
+    position: relative;
+
+    &-overlay {
+      .full-width;
+      height: 500px;
+      position: absolute;
+      cursor: pointer;
+      background-color: @background-color-quinary;
+      opacity: 0.7;
+      z-index: 1;
+
+      &--text {
+        font-size: 20px;
+        margin-top: 220px;
+        font-family: 'Open Sans', sans-serif;
+        color: @text-color-quaternary;
+        .default-padding-horizontal;
+      }
+    }
+
+    &-canvas {
+      height: 500px
+    }
+  }
+}
+
+@media (max-device-width: 992px) {
+  .contacts {
+    &-details {
+
+      &-list {
+
+        &-item {
+          margin: 30px 0;
+
+          &--icon {
+            .square(100px);
+            line-height: 100px;
+            font-size: 50px;
+          }
+
+          &--title {
+            font-size: 40px;
+            margin-left: 25px;
+          }
+        }
+      }
+
+      &-signature {
+        font-size: 70px;
+        margin: 50px 0;
+      }
+
+      &-cv-link {
+        font-size: 70px;
+        border-radius: 15px;
+
+        &:visited, &:active, &:hover {
+          color: @text-color-quaternary;
+        }
+      }
+    }
+
+
+    &-map {
+
+
+      &-canvas {
+
+      }
+    }
+  }
+
+}

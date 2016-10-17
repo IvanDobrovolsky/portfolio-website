@@ -1,0 +1,24 @@
+section.contacts#contacts.default-padding-bottom
+    div.container-fluid.text-center
+        div.row
+            h2.section-title.text-uppercase #{landing.contacts.title}
+            span.section-border
+        div.row
+            div.col-lg-12.col-md-12.hidden-sm.hidden-xs.default-margin-top
+            div.col-lg-6.col-md-6.col-sm-12.col-xs-12.flex-container.flex-content-center.default-padding-bottom
+                div.contacts-details.text-left
+                    h3.contacts-details-title.text-uppercase.hidden-sm.hidden-xs.default-margin-bottom.text-center #{landing.contacts.details.title}
+                    ul.contacts-details-list
+                        each detailsItem in landing.contacts.details.items
+                            li.contacts-details-list-item.flex-container.flex-align-items-baseline
+                                i.contacts-details-list-item--icon.text-center(class="#{detailsItem.icon}")
+                                p.contacts-details-list-item--title #{detailsItem.description}
+                    p.contacts-details-signature.default-margin-top.text-center #{landing.contacts.details.signature}
+                    a.contacts-details-cv-link.default-margin-top.text-center(href="#{landing.contacts.details.cv.link}", target="_blank")
+                        i.contacts-details-cv-link--icon(class="#{landing.contacts.details.cv.icon}")
+                        span.contacts-details-cv-link--title.text-capitalize #{landing.contacts.details.cv.title}
+            div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+                div.contacts-map
+                    div.contacts-map-overlay
+                        p.contacts-map-overlay--text #{landing.contacts.map.overlay.text}
+                    div.contacts-map-canvas#map-canvas
