@@ -345,5 +345,10 @@
             "text": "Life is like riding a bike, to keep your balance you must keep moving",
             "author": "Albert Einstein"
         }
+    },
+    "footer": {
+        "copyright": {
+            "title": "2016 Kyiv. Made by Ivan Dobrovolskyi"
+        }
     }
 }
