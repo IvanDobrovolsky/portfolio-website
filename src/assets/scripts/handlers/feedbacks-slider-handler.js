@@ -10,6 +10,4 @@ module.exports = function ($) {
         dots: true,
         speed: 300
     });
-
-    $('.feedbacks .slick-carousel .slick-dots button').text('');
 };

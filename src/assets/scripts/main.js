@@ -13,4 +13,6 @@ jQuery(document).ready(function () {
     googleMapsHandler(jQuery);
     feedbacksSliderHandler(jQuery);
 
+    //Clearing slick carousel styles
+    jQuery('.slick-carousel .slick-dots button').text('');
 });
