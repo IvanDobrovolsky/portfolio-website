@@ -1,0 +1,96 @@
+@import "../../palette";
+@import "../../custom";
+
+.feedbacks {
+  background: @background-color-secondary;
+  .default-padding-vertical;
+
+  &-gallery {
+    &--item {
+      .default-margin-bottom;
+
+      &-avatar {
+        .rounded;
+        .square(180px);
+        overflow: hidden;
+
+        &-img{
+          max-width: 100%;
+        }
+      }
+
+      &-text {
+        margin-top: 15px;
+        padding: 0 15px;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: @text-color-secondary;
+      }
+
+      &-name {
+        .no-margin;
+        font-family: "Raleway", sans-serif;
+        color: @text-color-tertiary;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .slick-dots {
+    .flex-container;
+    .flex-content-center;
+
+    .slick-active {
+      button {
+        background: @background-color-quaternary;
+      }
+    }
+
+    button {
+      .square(12px);
+      .rounded;
+      margin: 0 5px;
+      .no-padding;
+      background: @text-color-secondary;
+      border: none;
+    }
+  }
+}
+
+@media (max-device-width: 992px) {
+  .feedbacks {
+
+    &-gallery {
+      &--item {
+        .default-margin-bottom;
+
+        &-avatar {
+          .square(480px);
+
+          &-img {
+            .full-width;
+          }
+        }
+
+        &-text {
+          font-size: 46px;
+        }
+
+        &-name {
+          font-size: 50px;
+          margin: 30px 0;
+        }
+      }
+    }
+
+    .slick-dots {
+
+
+      button {
+        .square(50px);
+        .default-padding-horizontal;
+        .default-margin-bottom;
+      }
+    }
+  }
+}
