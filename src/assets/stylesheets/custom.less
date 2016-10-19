@@ -128,6 +128,28 @@
   color: @text-color-primary;
 }
 
+
+//Carousel styles
+.slick-dots {
+  .flex-container;
+  .flex-content-center;
+
+  .slick-active {
+    button {
+      background: @background-color-quaternary;
+    }
+  }
+
+  button {
+    .square(12px);
+    .rounded;
+    margin: 0 5px;
+    .no-padding;
+    background: @text-color-secondary;
+    border: none;
+  }
+}
+
 @media (max-device-width: 992px) {
   .section-title {
     font-size: 80px;
@@ -137,5 +159,13 @@
     width: 300px;
     height: 6px;
     margin: 40px auto;
+  }
+
+  .slick-dots {
+    button {
+      .square(50px);
+      .default-padding-horizontal;
+      .default-margin-bottom;
+    }
   }
 }
