@@ -43,6 +43,7 @@ const config = {
             landing: [
                 'node_modules/bootstrap/dist/css/bootstrap.css',
                 'node_modules/font-awesome/css/font-awesome.css',
+                'node_modules/slick-carousel-browserify/slick/slick.css',
                 'src/assets/stylesheets/navigation.css',
                 'src/assets/stylesheets/main-landing.less'
             ]
