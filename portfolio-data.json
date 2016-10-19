@@ -164,6 +164,60 @@
                         "Basics of Java/Python"
                     ],
                     "description": "Being familiar with popular Back end technologies and having decent experience of Back end development using Node.js stack allows me to create high-performance and well-secured Full-stack and Isomorphic applications. Knowledge of Back end technologies significantly helps me to collaborate with other Back end developers within a team and be able to resolve issues in critical situations"
+                },
+                {
+                    "title": "Tools and deployment",
+                    "icon": "img/skills-icons/branches.png",
+                    "stack": [
+                        "git",
+                        "npm/bower/yarn",
+                        "TypeScript",
+                        "gulp/grunt/webpack/system.js",
+                        "Chrome dev tools",
+                        "Augury/Batarang",
+                        "Webstorm/Atom",
+                        "Heroku/AWS",
+                        "Bamboo/Jenkins"
+                    ],
+                    "description": "Tooling helps me as a developer to accelerate the development process and setup complex environments. Continuous Delivery/Integration/Deployment are the concepts that I am used to work with on several big commercial projects so I will not lack knowledge to work with these tools on a new project"
+                },
+                {
+                    "title": "Testing and Bug tracking",
+                    "icon": "img/skills-icons/bugs-search.png",
+                    "stack": [
+                        "TDD/BDD",
+                        "Mocha",
+                        "Karma",
+                        "Jasmine",
+                        "Protractor",
+                        "Postman",
+                        "Jira"
+                    ],
+                    "description": "Having worked on several huge commercial projects I know from personal experience that testing and bug tracking are vital for successful product development. I am familiar with TDD/BDD fundamentals and have experience of writing Unit and e2e tests for both Angular and Node.js applications"
+                },
+                {
+                    "title": "APIs, Tracking, Monitoring and Billing systems",
+                    "icon": "img/skills-icons/smartphone.png",
+                    "stack": [
+                        "Facebook/Google Maps/Flickr/Youtube APIs",
+                        "Google Analytics",
+                        "VWO/Hotjar",
+                        "New Relic/Tealium",
+                        "Billing systems "
+                    ],
+                    "description": "I have got huge experience of integration diverse third party services for tracking, monitoring, billing in both SPAs and traditional websites and also using Popular products APIs to fetch certain data from."
+                },
+                {
+                    "title": "Methodologies and management",
+                    "icon": "img/skills-icons/list.png",
+                    "stack": [
+                        "SCRUM",
+                        "Kanban",
+                        "Spotify Model",
+                        "Waterflow",
+                        "Jira/Confluence"
+                    ],
+                    "description": "Being familiar with both Waterflow and especially Agile methodologies I can easily work in a team and help improving organization the working process in general"
                 }
             ]
         },
