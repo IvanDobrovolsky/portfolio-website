@@ -1,0 +1,72 @@
+@import "../../palette";
+@import "../../custom";
+
+.skills {
+  background: @background-color-secondary;
+  .default-padding-vertical;
+
+  &-gallery {
+    margin-bottom: 15px;
+
+    &--item {
+      .default-margin-bottom;
+
+      &-title {
+        .no-margin;
+        margin-top: 5px;
+        color: @text-color-secondary;
+        font-size: 30px;
+      }
+
+      &-icon {
+        .square(165px);
+        margin-top: 15px;
+
+        &-img{
+          max-width: 100%;
+          .full-width;
+        }
+      }
+
+      &-stack {
+        .default-margin-vertical;
+      }
+
+      &-description {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: @text-color-secondary;
+        padding: 0 15px;
+      }
+
+    }
+  }
+}
+
+@media (max-device-width: 992px) {
+  .skills {
+
+    &-gallery {
+      &--item {
+
+        &-title {
+          font-size: 50px;
+        }
+
+        &-icon {
+          .square(300px);
+        }
+
+        &-stack {
+          font-size: 40px;
+          line-height: 50px;
+        }
+
+        &-description {
+          font-size: 46px;
+          .default-padding-bottom;
+        }
+      }
+    }
+  }
+}

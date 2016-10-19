@@ -11,8 +11,8 @@
                 "reference": "#about"
             },
             {
-                "label": "Services",
-                "reference": "#services"
+                "label": "Skills",
+                "reference": "#skills"
             },
             {
                 "label": "Projects",
@@ -124,7 +124,47 @@
                 ]
             }
         },
-        "services": {},
+        "skills": {
+            "title": "My skills",
+            "items": [
+                {
+                    "title": "Front end development",
+                    "icon": "img/skills-icons/code.png",
+                    "stack": [
+                        "HTML5",
+                        "JavaScript",
+                        "Angular1/Angular2",
+                        "React.js"
+                    ],
+                    "description": "Using modern Front end technology stack allows me to create superior and progressive client-side applications. Moreover, having solid experience of working with each of them will help me to choose the best solution for customer's business"
+                },
+                {
+                    "title": "Interactive UI/UX",
+                    "icon": "img/skills-icons/responsive-design.png",
+                    "stack": [
+                        "Adobe Photoshop/Illustrator",
+                        "Sketch",
+                        "CSS3",
+                        "jQuery",
+                        "Semantic UI/Bootstrap/Foundation"
+                    ],
+                    "description": "Having huge experience of working with these tools allows me to create interactive, responsive, cross-browser, and attractive interfaces. The product will acquire fresh and bright look and will remain lighting fast as performance is the thing I really care about"
+                },
+                {
+                    "title": "Back end development",
+                    "icon": "img/skills-icons/database.png",
+                    "stack": [
+                        "Node.js",
+                        "Express.js",
+                        "MySQL",
+                        "MongoDB",
+                        "REST",
+                        "Basics of Java/Python"
+                    ],
+                    "description": "Being familiar with popular Back end technologies and having decent experience of Back end development using Node.js stack allows me to create Full-stack and Isomorphic applications. Knowledge of Back end technologies significantly helps me to collaborate with other Back end developers within a team and be able to resolve issues in critical situations"
+                }
+            ]
+        },
         "projects": {},
         "feedbacks": {
             "title": "Feedbacks",

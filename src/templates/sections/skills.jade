@@ -1,0 +1,12 @@
+section.skills#skills.text-center
+    h2.skills-title.section-title.text-uppercase #{landing.skills.title}
+    span.section-border
+
+    div.skills-gallery.slick-carousel
+        each skillItem in landing.skills.items
+            div.skills-gallery--item
+                h3.skills-gallery--item-title #{skillItem.title}
+                div.skills-gallery--item-icon.center-block
+                    img.skills-gallery--item-icon-img(src="#{skillItem.icon}")
+                h4.skills-gallery--item-stack #{skillItem.stack.join(", ")}
+                p.skills-gallery--item-description #{skillItem.description}
