@@ -159,9 +159,11 @@
                         "MySQL",
                         "MongoDB",
                         "REST",
+                        "HTTP",
+                        "Websockets",
                         "Basics of Java/Python"
                     ],
-                    "description": "Being familiar with popular Back end technologies and having decent experience of Back end development using Node.js stack allows me to create Full-stack and Isomorphic applications. Knowledge of Back end technologies significantly helps me to collaborate with other Back end developers within a team and be able to resolve issues in critical situations"
+                    "description": "Being familiar with popular Back end technologies and having decent experience of Back end development using Node.js stack allows me to create high-performance and well-secured Full-stack and Isomorphic applications. Knowledge of Back end technologies significantly helps me to collaborate with other Back end developers within a team and be able to resolve issues in critical situations"
                 }
             ]
         },
