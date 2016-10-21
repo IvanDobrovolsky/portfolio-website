@@ -6,6 +6,8 @@ const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
 const concat = require('gulp-concat');
 const minify = require('gulp-minify-css');
+const imagemin = require('gulp-imagemin');
+const uglify = require('gulp-uglify');
 const browserify = require('gulp-browserify');
 
 const fs = require('fs');
@@ -15,6 +17,7 @@ const browser = os.platform() === 'linux' ? 'google-chrome' : (os.platform() ===
 
 const config = {
     files: {
+        allProjectFiles: "**/*.*",
         build: {
             css: 'build/css/main.css'
         },
@@ -78,7 +81,7 @@ gulp.task('compile-jade', () => {
 
 
 //Gulp css task - handles css stuff(compiling less, autoprefixer, bundling with library files, minification and concatenation )
-gulp.task('css', () => {
+gulp.task('css', ['compile-jade'], () => {
     gulp.src(config.files.stylesheets.landing)
         .pipe(less())
         .pipe(autoprefixer({
@@ -86,7 +89,7 @@ gulp.task('css', () => {
             cascade: false
         }))
         .pipe(concat('landing.css'))
-        // .pipe(minify()) TODO Enable for production
+        .pipe(minify())
         .pipe(gulp.dest('./build/css'));
 
 
@@ -94,7 +97,7 @@ gulp.task('css', () => {
 });
 
 //Gulp task scripts - for bundling, uglification
-gulp.task('scripts', () => {
+gulp.task('scripts', ['css'], () => {
 
     // Single entry point to browserify
     gulp.src('src/assets/scripts/main.js')
@@ -102,12 +105,14 @@ gulp.task('scripts', () => {
             insertGlobals : true,
             debug : false
         }))
+        .pipe(uglify())
         .pipe(gulp.dest('./build/js'))
 });
 
 //Copy assets task images into build folder
 gulp.task('copy-assets', ['scripts'], () => {
     gulp.src(config.files.all.images)
+        .pipe(imagemin())
         .pipe(gulp.dest('./build/img'));
 
     gulp.src(config.files.all.fonts)
@@ -115,16 +120,14 @@ gulp.task('copy-assets', ['scripts'], () => {
 });
 
 //Gulp dev-server task: starts express server
-gulp.task('dev-server', ['compile-jade', 'css', 'copy-assets'], (cb) => {
+gulp.task('dev-server', ['copy-assets'], (cb) => {
 
     let started = false;
 
     return nodemon({
         script: config.files.server,
         ignore: [
-            config.files.all.src,
-            config.files.all.build,
-            config.files.data
+            config.files.allProjectFiles
         ]
     }).on('start', () => {
         console.log(`Dev server: started ${new Date().toLocaleString()}`);
