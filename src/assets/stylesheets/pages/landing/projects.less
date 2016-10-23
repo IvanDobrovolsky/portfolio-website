@@ -1,37 +1,6 @@
 @import "../../palette";
 @import "../../custom";
 
-.projects-label {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  color: @background-color-quaternary;
-  .no-margin;
-  margin-top: 15px;
-  padding: 2px 0;
-
-  span, li {
-    font-family: 'Open Sans', sans-serif;
-    color: @text-color-secondary;
-    margin-left: 4px;
-    font-size: 16px;
-  }
-
-  &-icon {
-    .square(42px);
-    text-align: center;
-    line-height: 42px;
-    vertical-align: middle;
-    font-size: 16px;
-    margin-right: 5px;
-    .rounded;
-    background: @background-color-tertiary;
-    color: @text-color-quaternary;
-  }
-}
-
-
-
-
 .projects {
   background: @background-color-primary;
   .default-padding-vertical;
@@ -83,6 +52,35 @@
       }
     }
   }
+
+  &-label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: @background-color-quaternary;
+    .no-margin;
+    margin-top: 15px;
+    padding: 2px 0;
+
+    span, li {
+      font-family: 'Open Sans', sans-serif;
+      color: @text-color-secondary;
+      margin-left: 4px;
+      font-size: 16px;
+    }
+
+    &-icon {
+      .square(42px);
+      text-align: center;
+      line-height: 42px;
+      vertical-align: middle;
+      font-size: 16px;
+      margin-right: 5px;
+      .rounded;
+      background: @background-color-tertiary;
+      color: @text-color-quaternary;
+    }
+  }
+
   button.slick-arrow {
     .no-padding;
     .no-margin;
@@ -93,6 +91,7 @@
   button.slick-next {
     .default-margin-bottom;
   }
+
 }
 
 @media (max-device-width: 992px) {
