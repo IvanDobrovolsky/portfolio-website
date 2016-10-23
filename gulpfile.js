@@ -73,7 +73,7 @@ gulp.task('compile-jade', () => {
 
     gulp.src(config.files.jade.index)
         .pipe(jade({
-            pretty: true,
+            pretty: false,
             locals: portFolioData
         }))
         .pipe(gulp.dest('./build'));
