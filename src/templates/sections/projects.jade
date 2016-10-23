@@ -37,3 +37,8 @@ section.projects#projects.text-center
                                 i.fa.fa-user.projects-label-icon
                                 span.projects-label Role:
                                     span #{project.role}
+                        if !!project.source
+                            p.projects-gallery--item-source
+                                i.fa.fa-github.projects-label-icon
+                                span.projects-label Source:
+                                    a(href="#{project.source}", target="_blank") #{project.source}

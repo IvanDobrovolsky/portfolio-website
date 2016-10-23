@@ -239,7 +239,8 @@
                         "Code review"
                     ],
                     "company": "Levi9 IT Services",
-                    "role": "Middle FE Developer"
+                    "role": "Middle FE Developer",
+                    "source": ""
                 },
                 {
                     "name": "Kids&Teens at Sanoma",
@@ -256,7 +257,8 @@
                         "Code review"
                     ],
                     "company": "Levi9 IT Services",
-                    "role": "Middle FE developer"
+                    "role": "Middle FE developer",
+                    "source": ""
                 },
                 {
                     "name": "Internal Recruitment System",
@@ -272,7 +274,8 @@
                         "Code review"
                     ],
                     "company": "Levi9 IT Services",
-                    "role": "Middle FE developer"
+                    "role": "Middle FE developer",
+                    "source": ""
                 },
                 {
                     "name": "Britver",
@@ -291,7 +294,8 @@
                         "Development process management"
                     ],
                     "company": "Freelance",
-                    "role": "FE developer and mentor"
+                    "role": "FE developer and mentor",
+                    "source": ""
                 },
                 {
                     "name": "Landscaping design",
@@ -307,11 +311,12 @@
                         "Development process management"
                     ],
                     "company": "Freelance",
-                    "role": "FE developer and mentor"
+                    "role": "FE developer and mentor",
+                    "source": ""
                 },
                 {
                     "name": "Online shopping app",
-                    "website": "https://github.com/IvanDobrovolsky/angular2-online-store",
+                    "website": "",
                     "type": "educational",
                     "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "Typescript", "RxJS", "Webpack", "Node.js", "Express", "MongoDB",  "Git"],
                     "description": "This is a simple online store of computers implemented using Angular2 to demonstrate how the framework brings the development to the absolutely new level and make the way we create apps more logical, professional, and straightforward. The back end part is done with Node.js stack.",
@@ -319,11 +324,12 @@
 
                     ],
                     "company": "",
-                    "role": ""
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/angular2-online-store"
                 },
                 {
                     "name": "Realtime chatting app",
-                    "website": "https://github.com/IvanDobrovolsky/realtime-chatting-app",
+                    "website": "",
                     "type": "educational",
                     "technologyStack": ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "Socket.io", "Git"],
                     "description": "This app was implemented in order to get hands-on experience in developing realtime applications with websockets and Node.js stack",
@@ -331,11 +337,12 @@
 
                     ],
                     "company": "",
-                    "role": ""
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/realtime-chatting-app"
                 },
                 {
                     "name": "Notes application",
-                    "website": "https://github.com/IvanDobrovolsky/notes-app",
+                    "website": "",
                     "type": "educational",
                     "technologyStack": ["HTML5", "CSS3", "JavaScript",  "MongoDB", "Express.js", "AngularJS", "Node.js", "jQuery", "Git"],
                     "description": "This simple notes application was implemented in order to get hands-on experience in developing apps using MEAN stack(MongoDB, Express.js, Angular.js and Node.js).",
@@ -343,11 +350,13 @@
 
                     ],
                     "company": "",
-                    "role": ""
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/notes-app"
+
                 },
                 {
                     "name": "WebScraper application",
-                    "website": "https://github.com/IvanDobrovolsky/web-scraper-app",
+                    "website": "",
                     "type": "educational",
                     "technologyStack": ["HTML5", "CSS3", "JavaScript",  "Node.js", "Express.js", "AngularJS", "Gulp", "X-Ray", "Git"],
                     "description": "This educational app was implemented for scraping and collecting data from websites that belong to CAD Department in National Technical University of Ukraine 'Kyiv Polytechnic Institute'. The app is easy to scale for scraping data from other resources",
@@ -355,7 +364,8 @@
 
                     ],
                     "company": "",
-                    "role": ""
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/web-scraper-app"
                 },
                 {
                     "name": "Node.js tutorial",
@@ -367,7 +377,8 @@
 
                     ],
                     "company": "",
-                    "role": ""
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/web-scraper-app"
                 }
             ]
         },
