@@ -1,0 +1,102 @@
+@import "../../palette";
+@import "../../custom";
+
+.projects-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: @background-color-quaternary;
+  .no-margin;
+  margin-top: 15px;
+  padding: 2px 0;
+
+  span, li {
+    font-family: 'Open Sans', sans-serif;
+    color: @text-color-secondary;
+    margin-left: 4px;
+    font-size: 16px;
+  }
+
+  &-icon {
+    .square(42px);
+    text-align: center;
+    line-height: 42px;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-right: 5px;
+    .rounded;
+    background: @background-color-tertiary;
+    color: @text-color-quaternary;
+  }
+}
+
+
+
+
+.projects {
+  background: @background-color-primary;
+  .default-padding-vertical;
+
+  &-gallery {
+    &--item {
+
+      &-name {
+        font-size: 45px;
+        font-family: "Raleway", sans-serif;
+        .default-margin-vertical;
+
+        &, &:hover, &:active, &:visited {
+          color: @text-color-tertiary;
+        }
+      }
+
+      &-description {
+        max-width: 900px;
+        .default-indentation;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: @text-color-secondary;
+      }
+
+      &-technology-stack {
+        &-label {
+
+        }
+      }
+
+      &-responsibilities {
+        margin-top: 15px;
+
+        ul {
+          list-style: disc;
+          margin-left: 65px;
+        }
+
+      }
+
+      &-type {
+      }
+
+      &-company {
+      }
+
+      &-role {
+      }
+    }
+  }
+  button.slick-arrow {
+    .no-padding;
+    .no-margin;
+    border: none;
+    background: @background-color-primary;
+    font-size: 20px;
+  }
+  button.slick-next {
+    .default-margin-bottom;
+  }
+}
+
+@media (max-device-width: 992px) {
+  .projects {
+
+  }
+}

@@ -3,17 +3,21 @@ var jQuery = require('jquery');
 var navigationHandler = require('./handlers/navigation-handler');
 var scrollHandler = require('./handlers/scroll-handler');
 var googleMapsHandler = require('./handlers/google-maps-handler');
-var feedbacksSliderHandler = require('./handlers/feedbacks-slider-handler');
-var skillsSliderHandler = require('./handlers/skills-slider-handler');
 
+//Slider handlers
+var skillsSliderHandler = require('./handlers/skills-slider-handler');
+var projectsSliderHandler = require('./handlers/projects-slider-handler');
+var feedbacksSliderHandler = require('./handlers/feedbacks-slider-handler');
 
 jQuery(document).ready(function () {
 
     scrollHandler(jQuery);
     navigationHandler(jQuery);
     googleMapsHandler(jQuery);
-    feedbacksSliderHandler(jQuery);
+
     skillsSliderHandler(jQuery);
+    projectsSliderHandler(jQuery);
+    feedbacksSliderHandler(jQuery);
 
     //Clearing slick carousel styles
     jQuery('.slick-carousel .slick-dots button').text('');
