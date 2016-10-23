@@ -74,12 +74,16 @@
                 "title": "HOBBIES & INTERESTS",
                 "icons": [
                     {
-                        "name": "Computers",
+                        "name": "Programming",
                         "icon": "fa fa-laptop"
                     },
                     {
-                        "name": "Internet",
+                        "name": "Web",
                         "icon": "fa fa-globe"
+                    },
+                    {
+                        "name": "Apps dev",
+                        "icon": "fa fa-mobile"
                     },
                     {
                         "name": "Science",
@@ -88,10 +92,6 @@
                     {
                         "name": "Innovation",
                         "icon": "fa fa-space-shuttle"
-                    },
-                    {
-                        "name": "Apps",
-                        "icon": "fa fa-mobile"
                     },
                     {
                         "name": "Business",
