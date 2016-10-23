@@ -97,5 +97,66 @@
 @media (max-device-width: 992px) {
   .projects {
 
+
+    &-gallery {
+      &--item {
+
+        &-name {
+          font-size: 76px;
+        }
+
+        &-description {
+          font-size: 46px;
+          .default-margin-bottom;
+        }
+
+        &-technology-stack {
+          .default-padding-top;
+
+          &-label {
+            span {
+              .block;
+            }
+          }
+        }
+
+        &-responsibilities {
+          .default-margin-vertical;
+          ul {
+            margin-left: 100px;
+          }
+        }
+
+        &-type {
+          .default-margin-vertical;
+        }
+
+        &-company {
+          .default-margin-vertical;
+        }
+
+        &-role {
+        }
+      }
+    }
+
+    &-label {
+      font-size: 44px;
+      .default-margin-left;
+
+      span, li {
+        font-size: 46px;
+      }
+
+      &-icon {
+        .square(100px);
+        line-height: 100px;
+        font-size: 50px;
+      }
+    }
+
+    button.slick-arrow {
+      display: none!important;
+    }
   }
 }
