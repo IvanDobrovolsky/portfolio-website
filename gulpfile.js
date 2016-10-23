@@ -17,13 +17,10 @@ const browser = os.platform() === 'linux' ? 'google-chrome' : (os.platform() ===
 
 const config = {
     files: {
-        allProjectFiles: "**/*.*",
-        build: {
-            css: 'build/css/main.css'
-        },
         data: 'portfolio-data.json',
         server: 'server.js',
         all: {
+            project: '**/*.*',
             src: 'src/**/*.*',
             build: 'build/**/*.*',
             jade: 'src/**/*.jade',
@@ -42,26 +39,29 @@ const config = {
                 'src/assets/scripts/**/*.js'
             ]
         },
-        stylesheets: {
-            landing: [
-                'node_modules/bootstrap/dist/css/bootstrap.css',
-                'node_modules/font-awesome/css/font-awesome.css',
-                'node_modules/slick-carousel-browserify/slick/slick.css',
-                'src/assets/stylesheets/navigation.css',
-                'src/assets/stylesheets/main-landing.less'
+        entry: {
+            jade: [
+                './src/index.jade',
+                './src/cv.jade'
             ],
-            cv: [
-                'node_modules/font-awesome/css/font-awesome.css',
-                'node_modules/slick-carousel-browserify/slick/slick.css',
-                'src/assets/stylesheets/main-cv.less',
+            stylesheets: {
+                landing: [
+                    'node_modules/bootstrap/dist/css/bootstrap.css',
+                    'node_modules/font-awesome/css/font-awesome.css',
+                    'node_modules/slick-carousel-browserify/slick/slick.css',
+                    'src/assets/stylesheets/navigation.css',
+                    'src/assets/stylesheets/main-landing.less'
+                ],
+                cv: [
+                    'node_modules/font-awesome/css/font-awesome.css',
+                    'node_modules/slick-carousel-browserify/slick/slick.css',
+                    'src/assets/stylesheets/main-cv.less',
+                ]
+            },
+            js: [
+                'src/assets/scripts/main-landing.js',
+                'src/assets/scripts/main-cv.js'
             ]
-        },
-        jade: [
-            './src/index.jade',
-            './src/cv.jade'
-        ],
-        main: {
-            less: './src/assets/stylesheets/main-landing.less'
         }
     },
     browserSync: {
@@ -77,7 +77,7 @@ gulp.task('compile-jade', () => {
 
     const portFolioData = JSON.parse(fs.readFileSync('portfolio-data.json', 'utf8'));
 
-    gulp.src(config.files.jade)
+    gulp.src(config.files.entry.jade)
         .pipe(jade({
             pretty: false,
             locals: portFolioData
@@ -88,34 +88,33 @@ gulp.task('compile-jade', () => {
 
 //Gulp css task - handles css stuff(compiling less, autoprefixer, bundling with library files, minification and concatenation )
 gulp.task('css', ['compile-jade'], () => {
-    gulp.src(config.files.stylesheets.landing)
-        .pipe(less())
-        .pipe(autoprefixer({
-            browsers: ['last 3 versions'],
-            cascade: false
-        }))
-        .pipe(concat('landing.css'))
-        .pipe(minify())
-        .pipe(gulp.dest('./build/css'));
 
+    const autoPrefixerParameters = {
+        browsers: ['last 3 versions'],
+        cascade: false
+    };
 
-    //TODO Do the same for cv page
-    gulp.src(config.files.stylesheets.cv)
-        .pipe(less())
-        .pipe(autoprefixer({
-            browsers: ['last 3 versions'],
-            cascade: false
-        }))
-        .pipe(concat('cv.css'))
-        .pipe(minify())
-        .pipe(gulp.dest('./build/css'));
+    function processCss (srcFiles, newName) {
+        return gulp.src(srcFiles)
+            .pipe(less())
+            .pipe(autoprefixer(autoPrefixerParameters))
+            .pipe(concat(newName))
+            .pipe(minify())
+            .pipe(gulp.dest('./build/css'));
+    }
+
+    //Landing page
+    processCss(config.files.entry.stylesheets.landing, 'landing.css');
+
+    //CV page
+    processCss(config.files.entry.stylesheets.cv, 'cv.css');
 });
 
 //Gulp task scripts - for bundling, uglification
 gulp.task('scripts', ['css'], () => {
 
     // Single entry point to browserify
-    gulp.src(['src/assets/scripts/main-landing.js', 'src/assets/scripts/main-cv.js'])
+    gulp.src(config.files.entry.js)
         .pipe(browserify({
             insertGlobals : true,
             debug : false
@@ -142,7 +141,7 @@ gulp.task('dev-server', ['copy-assets'], (cb) => {
     return nodemon({
         script: config.files.server,
         ignore: [
-            config.files.allProjectFiles
+            config.files.all.project
         ]
     }).on('start', () => {
         console.log(`Dev server: started ${new Date().toLocaleString()}`);
@@ -162,7 +161,7 @@ gulp.task('serve', ['dev-server'], function () {
 
 gulp.task('watch', ['serve'], () => {
     gulp.watch([config.files.data, config.files.all.jade], ['compile-jade']);
-    gulp.watch([config.files.stylesheets.landing, config.files.all.less], ['css']);
+    gulp.watch([config.files.entry.stylesheets.landing, config.files.entry.stylesheets.cv, config.files.all.less], ['css']);
     gulp.watch(config.files.all.js, ['scripts']);
 });
 
