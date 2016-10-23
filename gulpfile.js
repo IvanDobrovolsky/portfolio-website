@@ -49,11 +49,17 @@ const config = {
                 'node_modules/slick-carousel-browserify/slick/slick.css',
                 'src/assets/stylesheets/navigation.css',
                 'src/assets/stylesheets/main-landing.less'
+            ],
+            cv: [
+                'node_modules/font-awesome/css/font-awesome.css',
+                'node_modules/slick-carousel-browserify/slick/slick.css',
+                'src/assets/stylesheets/main-cv.less',
             ]
         },
-        jade: {
-            index: './src/index.jade'
-        },
+        jade: [
+            './src/index.jade',
+            './src/cv.jade'
+        ],
         main: {
             less: './src/assets/stylesheets/main-landing.less'
         }
@@ -71,7 +77,7 @@ gulp.task('compile-jade', () => {
 
     const portFolioData = JSON.parse(fs.readFileSync('portfolio-data.json', 'utf8'));
 
-    gulp.src(config.files.jade.index)
+    gulp.src(config.files.jade)
         .pipe(jade({
             pretty: false,
             locals: portFolioData
@@ -94,6 +100,15 @@ gulp.task('css', ['compile-jade'], () => {
 
 
     //TODO Do the same for cv page
+    gulp.src(config.files.stylesheets.cv)
+        .pipe(less())
+        .pipe(autoprefixer({
+            browsers: ['last 3 versions'],
+            cascade: false
+        }))
+        .pipe(concat('cv.css'))
+        .pipe(minify())
+        .pipe(gulp.dest('./build/css'));
 });
 
 //Gulp task scripts - for bundling, uglification
