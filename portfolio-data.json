@@ -308,6 +308,66 @@
                     ],
                     "company": "Freelance",
                     "role": "FE developer and mentor"
+                },
+                {
+                    "name": "Online shopping app",
+                    "website": "https://github.com/IvanDobrovolsky/angular2-online-store",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "Typescript", "RxJS", "Webpack", "Node.js", "Express", "MongoDB",  "Git"],
+                    "description": "This is a simple online store of computers implemented using Angular2 to demonstrate how the framework brings the development to the absolutely new level and make the way we create apps more logical, professional, and straightforward. The back end part is done with Node.js stack.",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": ""
+                },
+                {
+                    "name": "Realtime chatting app",
+                    "website": "https://github.com/IvanDobrovolsky/realtime-chatting-app",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "Socket.io", "Git"],
+                    "description": "This app was implemented in order to get hands-on experience in developing realtime applications with websockets and Node.js stack",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": ""
+                },
+                {
+                    "name": "Notes application",
+                    "website": "https://github.com/IvanDobrovolsky/notes-app",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "MongoDB", "Express.js", "AngularJS", "Node.js", "jQuery", "Git"],
+                    "description": "This simple notes application was implemented in order to get hands-on experience in developing apps using MEAN stack(MongoDB, Express.js, Angular.js and Node.js).",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": ""
+                },
+                {
+                    "name": "WebScraper application",
+                    "website": "https://github.com/IvanDobrovolsky/web-scraper-app",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "Node.js", "Express.js", "AngularJS", "Gulp", "X-Ray", "Git"],
+                    "description": "This educational app was implemented for scraping and collecting data from websites that belong to CAD Department in National Technical University of Ukraine 'Kyiv Polytechnic Institute'. The app is easy to scale for scraping data from other resources",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": ""
+                },
+                {
+                    "name": "Node.js tutorial",
+                    "website": "https://github.com/IvanDobrovolsky/web-scraper-app",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "Node.js", "Express.js", "MongoDB"],
+                    "description": "Being a student we have launched a non-commercial educational project called cad-academy for younger students to learn IT related technologies. I was holding the course dedicated to Node.js.",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": ""
                 }
             ]
         },
