@@ -28,6 +28,7 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.6.3",
     "jquery": "^3.1.1",
+    "lodash.throttle": "^4.1.1",
     "slick-carousel-browserify": "^1.6.12"
   }
 }
