@@ -115,7 +115,7 @@ gulp.task('css', ['compile-jade'], () => {
 gulp.task('scripts', ['css'], () => {
 
     // Single entry point to browserify
-    gulp.src('src/assets/scripts/main-landing.js')
+    gulp.src(['src/assets/scripts/main-landing.js', 'src/assets/scripts/main-cv.js'])
         .pipe(browserify({
             insertGlobals : true,
             debug : false
