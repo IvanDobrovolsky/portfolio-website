@@ -221,7 +221,96 @@
                 }
             ]
         },
-        "projects": {},
+        "projects": {
+            "title": "Projects",
+            "items": [
+                {
+                    "name": "Greetz",
+                    "website": "https://www.greetz.nl/",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "AngularJS", "TypeScript", "Grunt", "Less", "Jade", "Karma", "Protractor", "Git", "Java"],
+                    "description": "Greetz is a dutch leader company in online real greeting cards and personal surprises such as flowers, balloons, photo, gifts, and cards",
+                    "responsibilities": [
+                        "Developing the client-side application within a distributed team",
+                        "Stand alone UI Component development",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Unit/E2E testing",
+                        "Code review"
+                    ],
+                    "company": "Levi9 IT Services",
+                    "role": "Middle FE Developer"
+                },
+                {
+                    "name": "Kids&Teens at Sanoma",
+                    "website": "",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "TypeScript", "Webpack", "SCSS", "Karma", "Protractor", "Git", "Python", "Django Rest Framework"],
+                    "description": "Sanoma is a leading media group in the Nordic countries with operations in over 10 European countries, based in Helsinki. The group is also among the top five European magazine publishers.",
+                    "responsibilities": [
+                        "Developing the client-side application within a distributed team",
+                        "Stand alone UI Component development",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Unit/E2E testing",
+                        "Code review"
+                    ],
+                    "company": "Levi9 IT Services",
+                    "role": "Middle FE developer"
+                },
+                {
+                    "name": "Internal Recruitment System",
+                    "website": "",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "React", "Redux", "Webpack", "MaterialUI", "Scala", "MySql", "ElasticSearch", "Git"],
+                    "description": "Internal project for HR managers",
+                    "responsibilities": [
+                        "Developing the client-side application",
+                        "Stand alone UI Component development",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Code review"
+                    ],
+                    "company": "Levi9 IT Services",
+                    "role": "Middle FE developer"
+                },
+                {
+                    "name": "Britver",
+                    "website": "",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "PHP", "MySql"],
+                    "description": "Brtitver.com is a subscription service/online store of razors launched in Kyiv, Ukraine. Being one of the cofounders I took a post of CTO and was fully responsible for all technical stuff and issues",
+                    "responsibilities": [
+                        "Creating UI layout",
+                        "Adding animations",
+                        "Developing a blog",
+                        "Integrating billing systems and tracking tools",
+                        "Hosting and support",
+                        "Optimization and security ",
+                        "Code review",
+                        "Development process management"
+                    ],
+                    "company": "Freelance",
+                    "role": "FE developer and mentor"
+                },
+                {
+                    "name": "Landscaping design",
+                    "website": "http://landshaft-design.com.ua/",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "Less", "Jade", "jQuery", "Gulp", "Git"],
+                    "description": "Simple website-portfolio for landscaping designs. Implemented for a customer from Ukraine",
+                    "responsibilities": [
+                        "Developing UI components",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Code review",
+                        "Development process management"
+                    ],
+                    "company": "Freelance",
+                    "role": "FE developer and mentor"
+                }
+            ]
+        },
         "feedbacks": {
             "title": "Feedbacks",
             "items": [
