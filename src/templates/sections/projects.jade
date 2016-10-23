@@ -15,21 +15,25 @@ section.projects#projects.text-center
                             i.fa.fa-cogs.projects-label-icon
                             span.projects-gallery--item-technology-stack-label.projects-label Technology stack:
                                 span #{project.technologyStack.join(", ")}
-                        div.projects-gallery--item-responsibilities.text-capitalize
-                            i.fa.fa-exclamation.projects-label-icon
-                            span.projects-label Responsibilities:
-                                each projectResponsibility in project.responsibilities
-                                    ul
-                                        li.projects-gallery--item-responsibilities---item #{projectResponsibility}
-                        p.projects-gallery--item-type.text-capitalize
-                            i.fa.fa-filter.projects-label-icon
-                            span.projects-label Type:
-                                span #{project.type}
-                        p.projects-gallery--item-company.text-capitalize
-                            i.fa.fa-home.projects-label-icon
-                            span.projects-label Company:
-                                span #{project.company}
-                        p.projects-gallery--item-role.text-capitalize
-                            i.fa.fa-user.projects-label-icon
-                            span.projects-label Role:
-                                span #{project.role}
+                        if project.responsibilities.length > 0
+                            div.projects-gallery--item-responsibilities.text-capitalize
+                                i.fa.fa-exclamation.projects-label-icon
+                                span.projects-label Responsibilities:
+                                    each projectResponsibility in project.responsibilities
+                                        ul
+                                            li.projects-gallery--item-responsibilities---item #{projectResponsibility}
+                        if !!project.type
+                            p.projects-gallery--item-type.text-capitalize
+                                i.fa.fa-filter.projects-label-icon
+                                span.projects-label Type:
+                                    span #{project.type}
+                        if !!project.company
+                            p.projects-gallery--item-company.text-capitalize
+                                i.fa.fa-home.projects-label-icon
+                                span.projects-label Company:
+                                    span #{project.company}
+                        if !!project.role
+                            p.projects-gallery--item-role.text-capitalize
+                                i.fa.fa-user.projects-label-icon
+                                span.projects-label Role:
+                                    span #{project.role}
