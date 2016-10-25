@@ -4,7 +4,7 @@ module.exports = function ($) {
 
     var sectionsToTrack = ['objectives', 'education', 'experience', 'skills', 'projects', 'feedbacks'];
     var defaultScrollOffset = 250;
-    var activeNavItemClass = '';
+    var activeNavItemClass = 'active-sidebar-nav-item';
 
     function convertToIdSelector (str) {
         return "#" + str;
@@ -39,8 +39,7 @@ module.exports = function ($) {
     function sectionScrollHandler () {
         var currentActiveSection = sectionsToTrack[getActiveSectionIndex()];
 
-        //TODO Add real navigation selector
-        var navigationItemSelector = "***" + currentActiveSection;
+        var navigationItemSelector = '.sidebar-navigation-list-item--link[section-pointer="' + currentActiveSection +'"]';
 
         if (!!selectedItem) {
             selectedItem.removeClass(activeNavItemClass);
@@ -51,8 +50,8 @@ module.exports = function ($) {
         newSelectedItem.addClass(activeNavItemClass);
     }
 
-    //TODO Add a selector for initially selected item
-    var selectedItem = $('');
+    var selectedItem = $('.sidebar-navigation-list-item--link').first();
+    selectedItem.addClass('active-sidebar-nav-item');
 
     //Needs throttling for optimization
     $(window).scroll(throttle(sectionScrollHandler, 500));

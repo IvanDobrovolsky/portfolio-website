@@ -466,7 +466,40 @@
     },
     "cv": {
         "name": "Ivan Dobrovolskyi",
-        "position": "Full-stack web developer",
+        "position": "Front end web developer",
+        "sidebar": {
+           "nav": [
+               {
+                   "name": "objectives",
+                   "label": "Job Objectives"
+               },
+               {
+                   "name": "education",
+                   "label": "Education"
+               },
+               {
+                   "name": "experience",
+                   "label": "Work experience"
+               },
+               {
+                   "name": "skills",
+                   "label": "Skills"
+               },
+               {
+                   "name": "projects",
+                   "label": "Projects"
+               },
+               {
+                   "name": "feedbacks",
+                   "label": "Feedbacks"
+               }
+           ],
+            "backButton": {
+                "link": "/",
+                "icon": "fa fa-arrow-left",
+                "label": "Back to portfolio"
+            }
+        },
         "objectives": "Seeking for a challenging and rewarding role in IT industry with the opportunity to work with the latest technologies on challenging and diverse projects. A result-oriented and self-motivated web developer. Want to use my technical background and expertise in developing software by using valuable resources within a growing organization.",
         "photo": "",
         "profile": [

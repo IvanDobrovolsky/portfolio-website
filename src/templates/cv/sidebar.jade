@@ -1,0 +1,15 @@
+content#sidebar.sidebar.default-padding
+    h2.sidebar-title #{cv.name.split(' ').shift()}
+        strong #{cv.name.split(' ').pop()}
+    h3.sidebar-subtitle #{cv.position}
+    nav.sidebar-navigation
+        ul.sidebar-navigation-list
+            each navItem in cv.sidebar.nav
+                li.sidebar-navigation-list-item
+                    a.sidebar-navigation-list-item--link(href="##{navItem.name}", section-pointer="#{navItem.name}")
+                        i.fa.fa-angle-right
+                        span #{navItem.label}
+    a.sidebar-back-button(href="#{cv.sidebar.backButton.link}")
+        i.sidebar-back-button--icon(class="#{cv.sidebar.backButton.icon}")
+        span.sidebar-back-button--label #{cv.sidebar.backButton.label}
+                

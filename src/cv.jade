@@ -5,7 +5,12 @@ html
         link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700', rel='stylesheet', type='text/css')
         link(rel="stylesheet", href="css/cv.css")
     body
-        h1 #{cv.name}
-        h2 #{cv.position}
-        include templates/footer
-        script(src="js/main-cv.js")
+        aside
+            include templates/cv/sidebar
+        main
+            h1 #{cv.name}
+            h2 #{cv.position}
+            each section in cv.sidebar.nav
+                div(style="height: 700px; font-size: 100px;", id="#{section.name}") #{section.name}
+            include templates/footer
+            script(src="js/main-cv.js")

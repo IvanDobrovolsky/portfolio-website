@@ -2,7 +2,17 @@
 @import "palette";
 
 @import "pages/footer";
+@import "pages/cv/sidebar";
 
 body {
-  background: red;
+  display: flex;
+  margin: 0;
+
+  aside {
+    width: 300px;
+  }
+
+  main {
+    flex-grow: 1;
+  }
 }
