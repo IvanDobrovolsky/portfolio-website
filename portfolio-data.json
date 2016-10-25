@@ -470,8 +470,8 @@
         "sidebar": {
            "nav": [
                {
-                   "name": "objectives",
-                   "label": "Job Objectives"
+                   "name": "profile",
+                   "label": "Profile"
                },
                {
                    "name": "education",

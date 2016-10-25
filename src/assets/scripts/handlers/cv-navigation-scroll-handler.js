@@ -2,7 +2,7 @@ var throttle = require('lodash.throttle');
 
 module.exports = function ($) {
 
-    var sectionsToTrack = ['objectives', 'education', 'experience', 'skills', 'projects', 'feedbacks'];
+    var sectionsToTrack = ['profile', 'education', 'experience', 'skills', 'projects', 'feedbacks'];
     var defaultScrollOffset = 250;
     var activeNavItemClass = 'active-sidebar-nav-item';
 
