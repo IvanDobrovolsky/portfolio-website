@@ -8,9 +8,8 @@ html
         aside
             include templates/cv/sidebar
         main
-            h1 #{cv.name}
-            h2 #{cv.position}
-            each section in cv.sidebar.nav
-                div(style="height: 700px; font-size: 100px;", id="#{section.name}") #{section.name}
-            include templates/footer
-            script(src="js/main-cv.js")
+            content
+                each section in cv.sidebar.nav
+                    div(style="height: 700px; font-size: 100px;", id="#{section.name}") #{section.name}
+                include templates/footer
+                script(src="js/main-cv.js")

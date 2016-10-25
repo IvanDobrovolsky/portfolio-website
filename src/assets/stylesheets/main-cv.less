@@ -10,9 +10,18 @@ body {
 
   aside {
     width: 300px;
+    min-width: 300px;
   }
 
   main {
     flex-grow: 1;
+    background: @background-color-quinary;
+
+    content {
+      .block;
+      max-width: 800px;
+      background: @background-color-primary;
+      margin: 75px auto 0;
+    }
   }
 }
