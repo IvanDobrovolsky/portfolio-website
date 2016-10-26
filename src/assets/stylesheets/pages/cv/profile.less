@@ -1,0 +1,55 @@
+@import "../../palette";
+@import "../../custom";
+
+.timeline-vertical {
+  background: @background-color-tertiary;
+  width: 6px;
+}
+
+.profile {
+  font-family: 'Open Sans', sans-serif;
+
+  &-intro {
+    &-avatar {
+      position: relative;
+
+      &-img {
+        text-align: center;
+        border-radius: 100%;
+        .square(210px);
+        min-width: 210px;
+        border: 5px solid @text-color-tertiary;
+        overflow: hidden;
+        margin: 0 auto;
+        background: @background-color-secondary url(../img/landing-home-portrait.png) no-repeat 31% 10%;
+        transform: rotate(7.5deg);
+      }
+      &-timeline {
+        height: 50px;
+        margin-left: 105px;
+        position: absolute;
+        bottom: -50px;
+      }
+    }
+    &-info {
+      &--objectives {
+        font-size: 15px;
+        color: @text-color-primary;
+
+        ul {
+          list-style: disc;
+          .default-margin-left;
+          padding: 10px 0;
+          .default-padding-left;
+          color: @text-color-secondary;
+          font-size: 14px;
+        }
+        div {
+          .default-indentation;
+        }
+
+      }
+    }
+
+  }
+}

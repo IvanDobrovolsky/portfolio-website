@@ -9,6 +9,7 @@ html
             include templates/cv/sidebar
         main
             content
+                include templates/cv/sections/profile
                 each section in cv.sidebar.nav
                     div(style="height: 700px; font-size: 100px;", id="#{section.name}") #{section.name}
                 include templates/footer

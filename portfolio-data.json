@@ -500,30 +500,46 @@
                 "label": "Back to portfolio"
             }
         },
-        "objectives": "Seeking for a challenging and rewarding role in IT industry with the opportunity to work with the latest technologies on challenging and diverse projects. A result-oriented and self-motivated web developer. Want to use my technical background and expertise in developing software by using valuable resources within a growing organization.",
-        "photo": "",
-        "profile": [
-            {
-                "name": "full name",
-                "value": "Ivan Dobrovolskyi"
+        "photo": "img/landing-home-portrait.png",
+        "profile": {
+            "objectives": {
+                "header": "Software developer with almost 3 years of industry expertise with Front end and other related technologies. Having:",
+                "qualities": [
+                    "Computer Science degree",
+                    "Solid experience of creating web UIs",
+                    "Commercial experience with modern JavaScript frameworks and tools",
+                    "General understanding of back end and networks",
+                    "Good analytical and interpersonal skills",
+                    "Fluent both spoken and written English",
+                    "Experience in development using SCRUM methodology",
+                    "'Can-do' attitude,",
+                    "Strong desire and motivation to grow and develop"
+                ],
+                "footer": "All the qualities and experience help me to be professional, responsible, productive and learn fast in order to work on diverse and complex projects and meet customer's expectations."
             },
-            {
-                "name": "born",
-                "value": "31 Mar 1994 - Kyiv, Ukraine"
-            },
-            {
-                "name": "mobile",
-                "value": "+38 (093) 520 96 31"
-            },
-            {
-                "name": "email",
-                "value": "dobrovolsky94@gmail.com"
-            },
-            {
-                "name": "address",
-                "value": "Kovalsky street, 5 Kyiv, Ukraine"
-            }
-        ],
+            "info": [
+                {
+                    "name": "full name",
+                    "value": "Ivan Dobrovolskyi"
+                },
+                {
+                    "name": "born",
+                    "value": "31 Mar 1994 - Kyiv, Ukraine"
+                },
+                {
+                    "name": "mobile",
+                    "value": "+38 (093) 520 96 31"
+                },
+                {
+                    "name": "email",
+                    "value": "dobrovolsky94@gmail.com"
+                },
+                {
+                    "name": "address",
+                    "value": "Kovalsky street, 5 Kyiv, Ukraine"
+                }
+            ]
+        },
         "education": [
             {
                 "speciality": "COMPUTER SCIENCE",

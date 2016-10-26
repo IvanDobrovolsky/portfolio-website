@@ -1,0 +1,12 @@
+section.profile#profile
+    div.profile-intro.flex-container.flex-align-items-center.default-padding
+        div.profile-intro-avatar
+            div.profile-intro-avatar-img
+            div.profile-intro-avatar-timeline.timeline-vertical
+        div.profile-intro-info.default-padding-left
+            div.profile-intro-info--objectives
+                div #{cv.profile.objectives.header}
+                ul
+                    each quality in cv.profile.objectives.qualities
+                        li #{quality}
+                div #{cv.profile.objectives.footer}
