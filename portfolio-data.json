@@ -221,48 +221,6 @@
                 }
             ]
         },
-        "feedbacks": {
-            "title": "Feedbacks",
-            "items": [
-                {
-                    "name": "Ruslan Uvarovsky",
-                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdEAAAAJDg2YTg3YWZhLTJiOTMtNGMwNi1hYzgyLTA4MjMyNWY4MjYwMw.jpg",
-                    "text": "During Ivan's work at Britver he proved himself as a responsible, disciplined and hard-working person. He remains calm and concentrated in any situation which enables him to solve hard tasks and problems the most effective way. I am proud that I had an opportunity to work with Ivan.",
-                    "link": "https://www.linkedin.com/in/ruslan-uvarovsky-70095596?authType=NAME_SEARCH&authToken=ctgK&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A342754992%2CauthType%3ANAME_SEARCH%2Cidx%3A1-4-4%2CtarId%3A1476828201175%2Ctas%3Arus"
-                },
-                {
-                    "name": "Nataliia Matkivska",
-                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAc5AAAAJDQzMDAwM2U4LTAxOGMtNGE4Mi05NDQyLWM5NTQ0ODg5ODY1NQ.jpg",
-                    "text": "I was cooperating closely with Ivan during our common work upon a few projects. He demonstrated high-level professionalism, reliability and curiosity to details. His attempts to start using newest technology stack, improvements and best practices proved to be very efficient. He has good skills of doing code-review, adding valuable remarks and consulting other team members in order to get the best results.",
-                    "link": "https://www.linkedin.com/in/nmatkivska?authType=name&authToken=nztp"
-                },
-                {
-                    "name": "Alexander Vasylenko",
-                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAg1AAAAJGM4ZjgzNDQ2LWVhNzUtNGViZC1iMTJlLTc1MWMzNjkyNDU0OA.jpg",
-                    "text": "I know Ivan both as a software engineer and a technical trainer. After he became a trainer, Ivan never ceased to be a programmer and was always ready to help fellow engineers in complex technical concepts. He is smart, talented and helpful. I've never seen that Ivan left anybody without his assistance if he could. I recommend Ivan as an experienced engineer and a good friend who never let you fail",
-                    "link": "https://www.linkedin.com/in/alexander-vasylenko-09321aaa?authType=NAME_SEARCH&authToken=dGuU&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A388713711%2CauthType%3ANAME_SEARCH%2Cidx%3A1-5-5%2CtarId%3A1476828107104%2Ctas%3Aalex"
-                },
-                {
-                    "name": "Elena Karpovych",
-                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAawAAAAJDcxOTMyZjI1LWY0MDYtNDg5OC1iYTdhLThjN2IxYWE0OWRiOA.jpg",
-                    "text": "Ivan has proved to have a divergent, abstract thinking style, native intelligence and good problem solving skills, along with good interpersonal skills and leadership qualities. He also has abilities to handle conflicts and work in a team, which came to be important in programming.",
-                    "link": "https://www.linkedin.com/profile/view?id=AAEAABEZyxABUPSmxR18TpjP6Kg432rsHze9AXo&authType=name&authToken=qmpt"
-                },
-                {
-                    "name": "Mykhailo Parfenyuk",
-                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0ad/3bb/31b00e8.jpg",
-                    "text": "Ivan is a very good specialist. He was confidently and precisely doing his job, constantly offering an initiative, helping to improve the project and do it better. I'm really happy that I worked with Ivan in one team and I think, he will be good support in any project over which he will work! ",
-                    "link": "https://www.linkedin.com/profile/view?id=AAEAABd_o0UBzna2t15OXXx8K0eqr-zBwFPG-_g&authType=name&authToken=Ofnh"
-                },
-                {
-                    "name": "Maxim Antipov",
-                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVIAAAAJGQxZWZhNWU1LTZhYjEtNGU1OS1hOGZhLTFjYWY4Zjc1MDRiNg.jpg",
-                    "text": "During my collaboration with Ivan, i have knew him as a good specialist in the field of frontend technologies.He's a smart, talented and demanding to himself developer. He knows a lot of JavaScript technologies and he is well-versed in them. Ivan does his job effectively with a creative approach . Working together with Ivan i've learned a lot from him in JavaScript, for which I am grateful. It was a pleasure to deal with him as a person and as a developer. ",
-                    "link": "https://www.linkedin.com/in/maxim-antipov-21656789?authType=name&authToken=ZK0t"
-                }
-
-            ]
-        },
         "contacts": {
             "title": "Contact me",
             "details": {
@@ -754,7 +712,48 @@
                 }
             ]
         },
-        "certificates": [],
+        "feedbacks": {
+            "title": "Feedbacks",
+            "items": [
+                {
+                    "name": "Ruslan Uvarovsky",
+                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdEAAAAJDg2YTg3YWZhLTJiOTMtNGMwNi1hYzgyLTA4MjMyNWY4MjYwMw.jpg",
+                    "text": "During Ivan's work at Britver he proved himself as a responsible, disciplined and hard-working person. He remains calm and concentrated in any situation which enables him to solve hard tasks and problems the most effective way. I am proud that I had an opportunity to work with Ivan.",
+                    "link": "https://www.linkedin.com/in/ruslan-uvarovsky-70095596?authType=NAME_SEARCH&authToken=ctgK&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A342754992%2CauthType%3ANAME_SEARCH%2Cidx%3A1-4-4%2CtarId%3A1476828201175%2Ctas%3Arus"
+                },
+                {
+                    "name": "Nataliia Matkivska",
+                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAc5AAAAJDQzMDAwM2U4LTAxOGMtNGE4Mi05NDQyLWM5NTQ0ODg5ODY1NQ.jpg",
+                    "text": "I was cooperating closely with Ivan during our common work upon a few projects. He demonstrated high-level professionalism, reliability and curiosity to details. His attempts to start using newest technology stack, improvements and best practices proved to be very efficient. He has good skills of doing code-review, adding valuable remarks and consulting other team members in order to get the best results.",
+                    "link": "https://www.linkedin.com/in/nmatkivska?authType=name&authToken=nztp"
+                },
+                {
+                    "name": "Alexander Vasylenko",
+                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAg1AAAAJGM4ZjgzNDQ2LWVhNzUtNGViZC1iMTJlLTc1MWMzNjkyNDU0OA.jpg",
+                    "text": "I know Ivan both as a software engineer and a technical trainer. After he became a trainer, Ivan never ceased to be a programmer and was always ready to help fellow engineers in complex technical concepts. He is smart, talented and helpful. I've never seen that Ivan left anybody without his assistance if he could. I recommend Ivan as an experienced engineer and a good friend who never let you fail",
+                    "link": "https://www.linkedin.com/in/alexander-vasylenko-09321aaa?authType=NAME_SEARCH&authToken=dGuU&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A388713711%2CauthType%3ANAME_SEARCH%2Cidx%3A1-5-5%2CtarId%3A1476828107104%2Ctas%3Aalex"
+                },
+                {
+                    "name": "Elena Karpovych",
+                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAawAAAAJDcxOTMyZjI1LWY0MDYtNDg5OC1iYTdhLThjN2IxYWE0OWRiOA.jpg",
+                    "text": "Ivan has proved to have a divergent, abstract thinking style, native intelligence and good problem solving skills, along with good interpersonal skills and leadership qualities. He also has abilities to handle conflicts and work in a team, which came to be important in programming.",
+                    "link": "https://www.linkedin.com/profile/view?id=AAEAABEZyxABUPSmxR18TpjP6Kg432rsHze9AXo&authType=name&authToken=qmpt"
+                },
+                {
+                    "name": "Mykhailo Parfenyuk",
+                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0ad/3bb/31b00e8.jpg",
+                    "text": "Ivan is a very good specialist. He was confidently and precisely doing his job, constantly offering an initiative, helping to improve the project and do it better. I'm really happy that I worked with Ivan in one team and I think, he will be good support in any project over which he will work! ",
+                    "link": "https://www.linkedin.com/profile/view?id=AAEAABd_o0UBzna2t15OXXx8K0eqr-zBwFPG-_g&authType=name&authToken=Ofnh"
+                },
+                {
+                    "name": "Maxim Antipov",
+                    "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVIAAAAJGQxZWZhNWU1LTZhYjEtNGU1OS1hOGZhLTFjYWY4Zjc1MDRiNg.jpg",
+                    "text": "During my collaboration with Ivan, i have knew him as a good specialist in the field of frontend technologies.He's a smart, talented and demanding to himself developer. He knows a lot of JavaScript technologies and he is well-versed in them. Ivan does his job effectively with a creative approach . Working together with Ivan i've learned a lot from him in JavaScript, for which I am grateful. It was a pleasure to deal with him as a person and as a developer. ",
+                    "link": "https://www.linkedin.com/in/maxim-antipov-21656789?authType=name&authToken=ZK0t"
+                }
+
+            ]
+        },
         "quote": {
             "text": "Life is like riding a bike, to keep your balance you must keep moving",
             "author": "Albert Einstein"

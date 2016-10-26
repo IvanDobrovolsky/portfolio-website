@@ -1,0 +1,19 @@
+section.feedbacks#feedbacks
+    div.timeline-section-title
+        div.timeline-section-title--icon
+        div.timeline-section-title--label
+            h1.section-title #{cv.feedbacks.title}
+    div.flex-container
+        div.timeline-block-point
+        div.feedbacks-gallery-container
+            div.feedbacks-gallery.slick-carousel
+                each galleryItem in cv.feedbacks.items
+                    a.feedbacks-gallery--item.block(href="#{galleryItem.link}", target="_blank")
+                        div.feedbacks-gallery--item-avatar
+                            img.feedbacks-gallery--item-avatar-img(src="#{galleryItem.avatar}")
+                        p.feedbacks-gallery--item-text #{galleryItem.text}
+                        h3.feedbacks-gallery--item-name #{galleryItem.name}
+    div.feedbacks-bottom
+        div.timeline-block-point
+            div.feedbacks-bottom-overlay
+
