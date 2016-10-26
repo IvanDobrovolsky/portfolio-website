@@ -12,5 +12,4 @@ html
                 include templates/cv/sections/profile
                 each section in cv.sidebar.nav
                     div(style="height: 700px; font-size: 100px;", id="#{section.name}") #{section.name}
-                include templates/footer
                 script(src="js/main-cv.js")
