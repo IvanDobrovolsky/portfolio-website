@@ -6,6 +6,38 @@
   width: 6px;
 }
 
+.timeline-block(@height, @background-url) {
+  margin-left: 83px;
+  width: 100px;
+  height: @height;
+  background: url(@background-url) no-repeat center center;
+  background-size: 400px 500px;
+  background-color: @background-color-tertiary;
+}
+
+.timeline-section-title {
+  .flex-container;
+
+  &--icon {
+    .timeline-block(95px, "http://www.dotrex.co/vertica/themes/img/progress-section-title3.png");
+  }
+
+  &--label {
+    .default-margin-left;
+
+    .section-title {
+      .no-margin;
+      line-height: 70px;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.timeline-block-point {
+  .timeline-block(auto, "http://www.dotrex.co/vertica/themes/img/progress-point.png");
+}
+
 .profile {
   font-family: 'Open Sans', sans-serif;
 
@@ -25,10 +57,10 @@
         transform: rotate(7.5deg);
       }
       &-timeline {
-        height: 50px;
+        height: 120px;
         margin-left: 105px;
         position: absolute;
-        bottom: -50px;
+        bottom: -119px;
       }
     }
     &-info {
@@ -51,5 +83,41 @@
       }
     }
 
+  }
+
+  &-info {
+    &-list {
+      &-item {
+        &-block {
+          flex-grow: 1;
+        }
+        &--name {
+          .no-margin;
+          .block;
+          color: @text-color-secondary;
+          border-bottom: 1px solid @text-color-primary;
+          padding-bottom: 5px;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 20px;
+        }
+        &--value {
+          margin-top: 0;
+          padding-top: 8px;
+
+          &---social-icon {
+            padding: 2px 10px;
+            background: @background-color-quinary;
+            border-radius: 5px;
+            margin: 3px 7px 0 0;
+            display: inline-block;
+
+            &, &:hover, &:visited {
+              color: @text-color-quaternary;
+            }
+          }
+        }
+      }
+    }
   }
 }

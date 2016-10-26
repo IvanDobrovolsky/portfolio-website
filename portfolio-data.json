@@ -502,6 +502,7 @@
         },
         "photo": "img/landing-home-portrait.png",
         "profile": {
+            "title": "Profile",
             "objectives": {
                 "header": "Software developer with almost 3 years of industry expertise with Front end and other related technologies. Having:",
                 "qualities": [
@@ -537,6 +538,32 @@
                 {
                     "name": "address",
                     "value": "Kovalsky street, 5 Kyiv, Ukraine"
+                }
+            ],
+            "social": [
+                {
+                    "name": "linkedin",
+                    "className": "linkedin",
+                    "icon": "fa fa-linkedin",
+                    "link": "https://www.linkedin.com/in/ivan-dobrovolskyi-754433b2?trk=hp-identity-name"
+                },
+                {
+                    "name": "github",
+                    "className": "github",
+                    "icon": "fa fa-github-alt",
+                    "link": "https://github.com/IvanDobrovolsky/"
+                },
+                {
+                    "name": "twitter",
+                    "className": "twitter",
+                    "icon": "fa fa-twitter",
+                    "link": "https://twitter.com/iDobrovoskyi"
+                },
+                {
+                    "name": "facebook",
+                    "className": "facebook",
+                    "icon": "fa fa-facebook",
+                    "link": "https://www.facebook.com/profile.php?id=100006213794793"
                 }
             ]
         },

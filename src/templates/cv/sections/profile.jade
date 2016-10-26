@@ -10,3 +10,24 @@ section.profile#profile
                     each quality in cv.profile.objectives.qualities
                         li #{quality}
                 div #{cv.profile.objectives.footer}
+    div.timeline-section-title
+        div.timeline-section-title--icon
+        div.timeline-section-title--label
+            h1.section-title #{cv.profile.title}
+    div.profile-info
+        ul.profile-info-list
+            each infoItem in cv.profile.info
+                li.profile-info-list-item.flex-container
+                    div.timeline-block-point
+                    div.profile-info-list-item-block.default-padding-right
+                        h3.profile-info-list-item--name #{infoItem.name}
+                        p.profile-info-list-item--value #{infoItem.value}
+
+            li.profile-info-list-item.flex-container
+                    div.timeline-block-point
+                    div.profile-info-list-item-block.default-padding-right
+                        h3.profile-info-list-item--name #{'Find me on'}
+                        p.profile-info-list-item--value
+                            each socialItem in cv.profile.social
+                                a.profile-info-list-item--value---social-icon(href="#{socialItem.link}", target="_blank")
+                                    i(class="#{socialItem.icon}")
