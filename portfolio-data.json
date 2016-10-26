@@ -15,14 +15,6 @@
                 "reference": "#skills"
             },
             {
-                "label": "Projects",
-                "reference": "#projects"
-            },
-            {
-                "label": "Feedbacks",
-                "reference": "#feedbacks"
-            },
-            {
                 "label": "Contacts",
                 "reference": "#contacts"
             },
