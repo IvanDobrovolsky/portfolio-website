@@ -10,6 +10,7 @@ html
         main
             content
                 include templates/cv/sections/profile
+                include templates/cv/sections/education
                 each section in cv.sidebar.nav
                     div(style="height: 700px; font-size: 100px;", id="#{section.name}") #{section.name}
                 script(src="js/main-cv.js")

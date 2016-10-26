@@ -567,26 +567,23 @@
                 }
             ]
         },
-        "education": [
-            {
-                "speciality": "COMPUTER SCIENCE",
-                "where": "Kyiv Polytechnic Institute",
-                "description": "National Technical University of Ukraine. Educational Scientific Complex 'Institute for Applied Systems Analysis'. The speciality is Computer Aided Design.",
-                "graduation": "June 2016"
-            },
-            {
-                "speciality": "M101JS: MONGODB FOR NODE.JS DEVELOPERS",
-                "where": "MongoDB University",
-                "description": "Learn basic installation of MongoDB, JSON, schema design, querying, insertion of data, indexing and working with language drivers. The course project involves building a blogging platform with MongoDB.",
-                "graduation": "September 2015"
-            },
-            {
-                "speciality": "BUSINESS ENGLISH",
-                "where": "Yappi School of Business English",
-                "description": "Successfully competed the Advanced level of Business English with the final grade A.",
-                "graduation": "June 2015"
-            }
-        ],
+        "education": {
+            "title": "Education",
+            "items": [
+                {
+                    "speciality": "COMPUTER SCIENCE",
+                    "where": "Kyiv Polytechnic Institute",
+                    "description": "National Technical University of Ukraine. Educational Scientific Complex 'Institute for Applied Systems Analysis'.",
+                    "graduation": "June 2016"
+                },
+                {
+                    "speciality": "BUSINESS ENGLISH",
+                    "where": "Yappi School of Business English",
+                    "description": "Successfully competed the Advanced level of Business English with the final grade A.",
+                    "graduation": "June 2015"
+                }
+            ]
+        },
         "experience": [
             {
                 "company": "britver.com",
