@@ -458,12 +458,16 @@
                     "type": "professional skills",
                     "items": [
                         {
-                            "name": "Fundamentals of JavaScript programming language. EcmaScript6.",
-                            "icon": "fa fa-jsfiddle"
+                            "name": "Fundamentals of JavaScript programming language, ES6+, TypeScript",
+                            "icon": "fa fa-code"
                         },
                         {
-                            "name": "Basics of C++, Java, Python",
-                            "icon": "fa fa-code"
+                            "name": "JavaScript frameworks and libraries: Angular2, Angular1, ReactJS, RxJS, jQuery",
+                            "icon": "fa fa-archive"
+                        },
+                        {
+                            "name": "Node.js stack(Express.js, Socket,io), Basics of Java, Python, Swift",
+                            "icon": "fa fa-server"
                         },
                         {
                             "name": "Algorithms and Data Structures",
@@ -474,35 +478,31 @@
                             "icon": "fa fa-bars"
                         },
                         {
-                            "name": "HTML5, CSS3(LESS, SCSS), Responsive design",
+                            "name": "HTML5, HTML5 Apis, Responsive and Cross-browser UI",
                             "icon": "fa fa-html5"
                         },
                         {
-                            "name": "Frameworks and tools: Bootstrap, Angular.js, Node.js, Gulp, Grunt, Webpack",
+                            "name": "CSS Frameworks and preprocessors: Less/Sass/Scss, Bootstrap/MaterialUI/SemanticUI",
+                            "icon": "fa fa-css3"
+                        },
+                        {
+                            "name": "Tooling: Gulp, Grunt, Webpack, Chrome dev tools, Batarang, Augury, TS/ES linters, transpilers",
                             "icon": "fa fa-wrench"
                         },
                         {
-                            "name": "JavaScript libraries: jQuery, Modernizr, D3.js, React.js",
-                            "icon": "fa fa-usd"
-                        },
-                        {
-                            "name": "Databases: MySQL, MongoDB, JSON, XML",
+                            "name": "Databases and data formats: MySQL, MongoDB, JSON, XML",
                             "icon": "fa fa-database"
                         },
                         {
-                            "name": "CMS: WordPress",
+                            "name": "CMS: WordPress, Hippo",
                             "icon": "fa fa-wordpress"
                         },
                         {
-                            "name": "Experience in working with git",
-                            "icon": "fa fa-github"
+                            "name": "Git and Git flow",
+                            "icon": "fa fa-code-fork"
                         },
                         {
-                            "name": "Basics of MV* approach, Flux, Redux",
-                            "icon": "fa fa-archive"
-                        },
-                        {
-                            "name": "Basics of Networking: HTTP protocol, TCP/IP stack, web sockets",
+                            "name": "Basics of Networking: HTTP protocol, web sockets",
                             "icon": "fa fa-globe"
                         },
                         {
@@ -519,11 +519,11 @@
                     "type": "software skills",
                     "items": [
                         {
-                            "name": "Operating Systems: Linux(Ubuntu, Debian), MSWindows, MacOS",
+                            "name": "Operating Systems: MacOS, Linux(Ubuntu), MSWindows",
                             "icon": "fa fa-terminal"
                         },
                         {
-                            "name": "Graphical editors: Photoshop",
+                            "name": "Graphical editors: Adobe Photoshop",
                             "icon": "fa fa-paint-brush"
                         },
                         {
@@ -540,11 +540,11 @@
                             "icon": "fa fa-language"
                         },
                         {
-                            "name": "Listening skils, negotiation",
+                            "name": "Communicative skills, Negotiation",
                             "icon": "fa fa-comments"
                         },
                         {
-                            "name": "Fast learning, ability to find information quickly",
+                            "name": "Fast learning and googling",
                             "icon": "fa fa-globe"
                         }
                     ]
