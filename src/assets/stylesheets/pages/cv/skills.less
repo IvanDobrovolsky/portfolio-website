@@ -1,0 +1,29 @@
+@import "../../palette";
+@import "../../custom";
+
+.skills {
+  &-category {
+    &-title {
+      color: @text-color-secondary;
+      border-bottom: 1px solid @text-color-primary;
+      padding-bottom: 5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-top: 14px;
+    }
+  }
+  &-list {
+    &-item {
+      font-size: 13px;
+      margin: 5px 0;
+
+      &--icon {
+        font-size: 15px;
+      }
+      &--name {
+        margin-left: 10px;
+      }
+    }
+  }
+}

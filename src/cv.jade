@@ -12,6 +12,7 @@ html
                 include templates/cv/sections/profile
                 include templates/cv/sections/education
                 include templates/cv/sections/experience
+                include templates/cv/sections/skills
                 each section in cv.sidebar.nav
                     div(style="height: 700px; font-size: 100px;", id="#{section.name}") #{section.name}
                 script(src="js/main-cv.js")

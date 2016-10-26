@@ -654,117 +654,106 @@
                 }
             ]
         },
-        "skills": [
-            {
-                "type": "professional skills",
-                "items": [
-                    {
-                        "name": "Fundamentals of JavaScript programming language. EcmaScript6.",
-                        "icon": "fa fa-jsfiddle"
-                    },
-                    {
-                        "name": "Basics of C++, Java, Python",
-                        "icon": "fa fa-code"
-                    },
-                    {
-                        "name": "Algorithms and Data Structures",
-                        "icon": "fa fa-line-chart"
-                    },
-                    {
-                        "name": "Fundamentals of OOP, Functional programming, and Design Patterns",
-                        "icon": "fa fa-bars"
-                    },
-                    {
-                        "name": "HTML5, CSS3(LESS, SCSS), Responsive design",
-                        "icon": "fa fa-html5"
-                    },
-                    {
-                        "name": "Frameworks and tools: Bootstrap, Angular.js, Node.js, Gulp, Grunt, Webpack",
-                        "icon": "fa fa-wrench"
-                    },
-                    {
-                        "name": "JavaScript libraries: jQuery, Modernizr, D3.js, React.js",
-                        "icon": "fa fa-usd"
-                    },
-                    {
-                        "name": "Databases: MySQL, MongoDB, JSON, XML",
-                        "icon": "fa fa-database"
-                    },
-                    {
-                        "name": "CMS: WordPress",
-                        "icon": "fa fa-wordpress"
-                    },
-                    {
-                        "name": "Experience in working with git",
-                        "icon": "fa fa-github"
-                    },
-                    {
-                        "name": "Basics of MV* approach, Flux, Redux",
-                        "icon": "fa fa-archive"
-                    },
-                    {
-                        "name": "Basics of Networking: HTTP protocol, TCP/IP stack, web sockets",
-                        "icon": "fa fa-globe"
-                    },
-                    {
-                        "name": "JavaScript testing: Mocha, Jasmine, Karma, Protractor",
-                        "icon": "fa fa-check-circle"
-                    },
-                    {
-                        "name": " Agile software development(Scrum)",
-                        "icon": "fa fa-thumb-tack"
-                    }
-                ]
-            },
-            {
-                "type": "software skills",
-                "items": [
-                    {
-                        "name": "Operating Systems: Linux(Ubuntu, Debian), MSWindows, MacOS",
-                        "icon": "fa fa-terminal"
-                    },
-                    {
-                        "name": "Graphical editors: Photoshop",
-                        "icon": "fa fa-paint-brush"
-                    },
-                    {
-                        "name": "Office suites: MS Office, Libre Office",
-                        "icon": "fa fa-suitcase"
-                    }
-                ]
-            },
-            {
-                "type": "interpersonal skills",
-                "items": [
-                    {
-                        "name": "Languages: English(fluent), Russian(fluent), Ukrainian(native)",
-                        "icon": "fa fa-language"
-                    },
-                    {
-                        "name": "Listening skils, negotiation",
-                        "icon": "fa fa-comments"
-                    },
-                    {
-                        "name": "Fast learning, ability to find information quickly",
-                        "icon": "fa fa-globe"
-                    }
-                ]
-            }
-        ],
-        "interests": [
-            {
-                "type": "Informational Technology",
-                "about": "Innovations, Data Mining, Web technology, Machine Learning, Analytics"
-            },
-            {
-                "type": "sport",
-                "about": "Extreme sport, Cross-fit, Mixed Artial Arts(won KPI open championship in Novemver, 2014)"
-            },
-            {
-                "type": "books",
-                "about": "Science-fiction, social engineering"
-            }
-        ],
+        "skills": {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "professional skills",
+                    "items": [
+                        {
+                            "name": "Fundamentals of JavaScript programming language. EcmaScript6.",
+                            "icon": "fa fa-jsfiddle"
+                        },
+                        {
+                            "name": "Basics of C++, Java, Python",
+                            "icon": "fa fa-code"
+                        },
+                        {
+                            "name": "Algorithms and Data Structures",
+                            "icon": "fa fa-line-chart"
+                        },
+                        {
+                            "name": "Fundamentals of OOP, Functional programming, and Design Patterns",
+                            "icon": "fa fa-bars"
+                        },
+                        {
+                            "name": "HTML5, CSS3(LESS, SCSS), Responsive design",
+                            "icon": "fa fa-html5"
+                        },
+                        {
+                            "name": "Frameworks and tools: Bootstrap, Angular.js, Node.js, Gulp, Grunt, Webpack",
+                            "icon": "fa fa-wrench"
+                        },
+                        {
+                            "name": "JavaScript libraries: jQuery, Modernizr, D3.js, React.js",
+                            "icon": "fa fa-usd"
+                        },
+                        {
+                            "name": "Databases: MySQL, MongoDB, JSON, XML",
+                            "icon": "fa fa-database"
+                        },
+                        {
+                            "name": "CMS: WordPress",
+                            "icon": "fa fa-wordpress"
+                        },
+                        {
+                            "name": "Experience in working with git",
+                            "icon": "fa fa-github"
+                        },
+                        {
+                            "name": "Basics of MV* approach, Flux, Redux",
+                            "icon": "fa fa-archive"
+                        },
+                        {
+                            "name": "Basics of Networking: HTTP protocol, TCP/IP stack, web sockets",
+                            "icon": "fa fa-globe"
+                        },
+                        {
+                            "name": "JavaScript testing: Mocha, Jasmine, Karma, Protractor",
+                            "icon": "fa fa-check-circle"
+                        },
+                        {
+                            "name": " Agile software development(Scrum)",
+                            "icon": "fa fa-thumb-tack"
+                        }
+                    ]
+                },
+                {
+                    "type": "software skills",
+                    "items": [
+                        {
+                            "name": "Operating Systems: Linux(Ubuntu, Debian), MSWindows, MacOS",
+                            "icon": "fa fa-terminal"
+                        },
+                        {
+                            "name": "Graphical editors: Photoshop",
+                            "icon": "fa fa-paint-brush"
+                        },
+                        {
+                            "name": "Office suites: MS Office, Libre Office",
+                            "icon": "fa fa-suitcase"
+                        }
+                    ]
+                },
+                {
+                    "type": "interpersonal skills",
+                    "items": [
+                        {
+                            "name": "Languages: English(fluent), Russian(fluent), Ukrainian(native)",
+                            "icon": "fa fa-language"
+                        },
+                        {
+                            "name": "Listening skils, negotiation",
+                            "icon": "fa fa-comments"
+                        },
+                        {
+                            "name": "Fast learning, ability to find information quickly",
+                            "icon": "fa fa-globe"
+                        }
+                    ]
+                }
+            ]
+        },
         "projects": [],
         "certificates": [],
         "quote": {
