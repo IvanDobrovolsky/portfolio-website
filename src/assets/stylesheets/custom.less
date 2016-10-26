@@ -186,6 +186,7 @@
 .timeline-block(@height, @background-url) {
   margin-left: 83px;
   width: 100px;
+  min-width: 100px;
   height: @height;
   background: url(@background-url) no-repeat center center;
   background-size: 400px 500px;
@@ -215,4 +216,7 @@
 
 .timeline-block-point {
   .timeline-block(auto, "http://www.dotrex.co/vertica/themes/img/progress-point.png");
+}
+.timeline-block-book {
+  .timeline-block(135px, "http://www.dotrex.co/vertica/themes/img/progress-education4.png");
 }
