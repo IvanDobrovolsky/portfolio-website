@@ -1,0 +1,22 @@
+section.experience#experience
+    div.timeline-section-title
+        div.timeline-section-title--icon
+        div.timeline-section-title--label
+            h1.section-title #{cv.experience.title}
+    ul.experience-list
+        each experienceItem in cv.experience.items
+            li.experience-list-item.flex-container
+                div.timeline-block-pc
+                div.experience-list-item--block.default-padding-right
+                    h3.experience-list-item--company #{experienceItem.company}
+                    h4.experience-list-item--position
+                        i.fa.fa-flag
+                        span.experience-list-item--position-title #{" " + experienceItem.position}
+                        em.experience-list-item--position-period #{" - Period: " + experienceItem.period}
+                    div.experience-list-item--description
+                        span.experience-list-item--description-intro #{experienceItem.description.intro}
+                        div.experience-list-item--description-category Responsibilities:
+                        span.experience-list-item--description-responsibilities #{experienceItem.description.responsibilities.join(", ")}
+                        div.experience-list-item--description-category Technology stack:
+                        span.experience-list-item--description-technology-stack #{experienceItem.description.technologyStack.join(", ")}
+

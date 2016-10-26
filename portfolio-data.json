@@ -584,20 +584,76 @@
                 }
             ]
         },
-        "experience": [
-            {
-                "company": "britver.com",
-                "position": "Cheif Technical Officer",
-                "responsibility": "Took a post in July 2015. Working over website development and analytics",
-                "period": "July 2015 - Current"
-            },
-            {
-                "company": "LEVI9 IT SERVICES",
-                "position": "Front end developer",
-                "responsibility": "Applied in September. Working upon commercial projects. Responsible for developing front end part of applications.",
-                "period": "September 2015 - Current"
-            }
-        ],
+        "experience": {
+            "title": "Work experience",
+            "items": [
+                {
+                    "company": "Levi9 IT Services",
+                    "position": "Front end developer",
+                    "description": {
+                        "intro": "Levi9 is a Dutch IT Services company with currently over 750 highly educated and skilled IT professionals in Eastern and Central Europe. I have been working in a remote team on software products for Dutch and International clients",
+                        "responsibilities": [
+                            "Implementing client-side javascript applications",
+                            "Creating cross-browser and pixel-perfect UIs",
+                            "Code testing",
+                            "Code review"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","JavaScript","TypeScript","Angular1","React", "Angular2", "Gulp/Grunt/Webpack", "and more..."]
+                    },
+                    "period": "September 2015 - Current"
+                },
+                {
+                    "company": "Britver",
+                    "position": "CTO",
+                    "description": {
+                        "intro": "Brtitver.com is a subscription service/online store of razors launched in Kyiv, Ukraine. Being one of the co-founders I took a post of CTO and was fully responsible for all technical stuff and issues. ",
+                        "responsibilities": [
+                            "Creating UI layout",
+                            "Adding animations",
+                            "Developing a blog",
+                            "Integrating billing systems and tracking tools",
+                            "Hosting and support",
+                            "Optimization and security"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","JavaScript(jQuery)","PHP","MySql","FacebookAPI"]
+                    },
+                    "period": "July 2015 – April 2016"
+                },
+                {
+                    "company": "Education Center Basic",
+                    "position": "JavaScript trainer",
+                    "description": {
+                        "intro": "Being a trainer I was holding both online and offline lessons of the course 'Modern JavaScript and frameworks",
+                        "responsibilities": [
+                            "Creating the course program from scratch",
+                            "Writing a bunch of code snippets and preparing code examples",
+                            "Communication with attendees",
+                            "Code review",
+                            "Developing several educational complex applications"
+                        ],
+                        "technologyStack": ["JavaScript","Node.js","npm","Gulp","Webpack","Angular.js","React.js"]
+                    },
+                    "period": "September 2015 – June 2016"
+                },
+                {
+                    "company": "Freelance",
+                    "position": "Front end developer",
+                    "description": {
+                        "intro": "Being a student I started working freelance both in a team and alone. I have got huge hands-on experience in Front-end development working on a variety of commercial projects on the Ukrainian market",
+                        "responsibilities": [
+                            "Implementing HTML markup from Photoshop templates",
+                            "Creating animations, transitions and other interactive UI things",
+                            "Developing responsive/Cross-browser and pixel-perfect webpages",
+                            "Website hosting and deployment",
+                            "Code review and optimization",
+                            "Integrating billing systems/social/media/advertising and tracking tools/services"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","Less","Sass","JavaScript","jQuery","Node.js","npm","Gulp/Grunt","Facebook/Twitter/Flick/GoogleMaps APIs","and a bunch of jQuery plugins"]
+                    },
+                    "period": "February 2014 – September 2015"
+                }
+            ]
+        },
         "skills": [
             {
                 "type": "professional skills",

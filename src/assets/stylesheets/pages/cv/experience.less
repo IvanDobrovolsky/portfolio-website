@@ -1,0 +1,50 @@
+@import "../../palette";
+@import "../../custom";
+
+.experience {
+  &-list {
+    &-item {
+      &--block {
+        flex-grow: 1;
+      }
+
+      &--company {
+        .no-margin;
+        color: @text-color-secondary;
+        border-bottom: 1px solid @text-color-primary;
+        padding-bottom: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 14px;
+      }
+
+      &--position {
+        font-size: 14px;
+        font-weight: 700;
+        color: @text-color-secondary;
+        margin: 7px 0;
+
+        &-period {
+          font-weight: 300;
+        };
+      }
+      &--description {
+        font-size: 13px;
+        line-height: 19px;
+        margin: 7px 0;
+
+        &-category {
+          margin-top: 5px;
+          color: @text-color-tertiary;
+          font-size: 14px;
+        }
+        &-intro, &-responsibilities, &-technology-stack {
+          display: inline-block;
+          .default-indentation;
+        }
+
+      }
+    }
+  }
+}
