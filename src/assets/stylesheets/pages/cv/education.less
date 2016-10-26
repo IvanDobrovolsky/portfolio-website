@@ -37,3 +37,34 @@
     }
   }
 }
+
+@media (max-device-width: 992px) {
+  .education {
+    &-list {
+      &-item {
+        .default-padding;
+
+        &--speciality {
+          font-size: 60px;
+          .no-padding;
+          .no-margin;
+          border: none;
+          text-align: center;
+          color: @text-color-tertiary;
+        }
+
+        &--where {
+          font-size: 40px;
+
+          &--graduation {
+            font-weight: 300;
+          };
+        }
+        &--description {
+          font-size: 28px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}

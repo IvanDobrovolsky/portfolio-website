@@ -225,3 +225,29 @@
 .timeline-block-pc {
   .timeline-block(auto, "http://www.dotrex.co/vertica/themes/img/progress-work3.png");
 }
+
+@media (max-device-width: 992px) {
+  .timeline-vertical, .timeline-block-point, .timeline-block-book, .timeline-block-pc, .timeline-section-title--icon {
+    display: none;
+  }
+
+  .timeline-section-title {
+    .block;
+
+    h1 {
+      text-align: center;
+      .default-margin;
+      .default-padding;
+      font-size: 78px;
+
+      &::after{
+        content: "";
+        .block;
+        .section-border;
+        margin-top: 40px;
+        width: 200px;
+        height: 8px;
+      }
+    }
+  }
+}

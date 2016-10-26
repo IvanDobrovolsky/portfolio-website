@@ -4,6 +4,8 @@
 .experience {
   &-list {
     &-item {
+      .default-padding;
+
       &--block {
         flex-grow: 1;
         margin-bottom: 20px;
@@ -49,4 +51,41 @@
       }
     }
   }
+}
+
+@media (max-device-width: 992px) {
+  .experience {
+    &-list {
+      &-item {
+
+        &--company {
+          font-size: 60px;
+          .no-padding;
+          .no-margin;
+          border: none;
+          text-align: center;
+          color: @text-color-tertiary;
+        }
+
+        &--position {
+          font-size: 40px;
+
+          &-period {
+            font-weight: 300;
+          };
+        }
+        &--description {
+          font-size: 40px;
+          line-height: 45px;
+
+          &-category {
+            .default-margin-top;
+            margin-bottom: 10px;
+            font-size: 45px;
+          }
+        }
+      }
+    }
+  }
+
 }

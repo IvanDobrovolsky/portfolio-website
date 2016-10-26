@@ -61,3 +61,40 @@
     }
   }
 }
+
+@import "../../palette";
+@import "../../custom";
+
+@media (max-device-width: 992px) {
+  .feedbacks {
+
+    &-gallery {
+
+      &-container {
+        .full-width;
+        max-width: 100%;
+      }
+
+      &--item {
+        .default-margin-bottom;
+
+        &-avatar {
+          .square(480px);
+
+          &-img {
+            .full-width;
+          }
+        }
+
+        &-text {
+          font-size: 46px;
+        }
+
+        &-name {
+          font-size: 50px;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+}

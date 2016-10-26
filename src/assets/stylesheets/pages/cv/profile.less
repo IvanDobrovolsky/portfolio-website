@@ -84,3 +84,57 @@
     }
   }
 }
+
+
+@media (max-device-width: 992px) {
+  .profile{
+    &-intro {
+      flex-direction: column;
+
+      &-avatar {
+        &-img {
+          .square(710px);
+          background-size: 100%;
+          background-position: 31px 0 ;
+        }
+      }
+
+      &-info {
+        &--objectives {
+          font-size: 40px;
+          .default-margin-top;
+
+          ul {
+            font-size: 38px;
+            .default-margin;
+          }
+        }
+      }
+    }
+
+    &-info {
+      text-align: center;
+
+      &-list {
+        &-item {
+          &-block {
+            .no-padding;
+          }
+
+          &--name {
+            font-size: 50px;
+          }
+          &--value {
+            font-size: 40px;
+
+            &---social-icon {
+              .default-margin;
+              padding: 15px 40px;
+              border-radius: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
