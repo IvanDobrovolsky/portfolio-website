@@ -1,8 +1,8 @@
 div#cd-nav
-    a.cd-nav-trigger(href="#0") #{navigation.title}
+    a.cd-nav-trigger(href="#0") #{nav.title}
         span
     nav#cd-main-nav
         ul
-            each navigationItem in navigation.items
+            each navigationItem in nav.items
                 li
                     a(href="#{navigationItem.reference}") #{navigationItem.label}

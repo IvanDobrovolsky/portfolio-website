@@ -1,31 +1,31 @@
 {
-    "navigation": {
-        "title": "Menu",
-        "items": [
-            {
-                "label": "Home",
-                "reference": "/"
-            },
-            {
-                "label": "About",
-                "reference": "#about"
-            },
-            {
-                "label": "Skills",
-                "reference": "#skills"
-            },
-            {
-                "label": "Contacts",
-                "reference": "#contacts"
-            },
-            {
-                "label": "CV",
-                "reference": "/cv.html"
-            }
-        ]
-    },
     "landing": {
         "title": "Portfolio website",
+        "navigation": {
+            "title": "Menu",
+            "items": [
+                {
+                    "label": "Home",
+                    "reference": "/"
+                },
+                {
+                    "label": "About",
+                    "reference": "#about"
+                },
+                {
+                    "label": "Skills",
+                    "reference": "#skills"
+                },
+                {
+                    "label": "Contacts",
+                    "reference": "#contacts"
+                },
+                {
+                    "label": "CV",
+                    "reference": "/cv.html"
+                }
+            ]
+        },
         "home": {
             "name": "Ivan Dobrovolskyi",
             "position": "Front end specialist",
@@ -254,6 +254,38 @@
         }
     },
     "cv": {
+        "navigation": {
+            "title": "Menu",
+            "items": [
+                {
+                    "label": "Home",
+                    "reference": "/"
+                },
+                {
+                    "label": "Profile",
+                    "reference": "#profile"
+                },
+                {
+                    "label": "Education",
+                    "reference": "#education"
+                },
+                {
+                    "label": "Experience",
+                    "reference": "#experience"
+                },
+                {
+                    "label": "Skills",
+                    "reference": "#skills"
+                },
+                {
+                    "label": "Projects",
+                    "reference": "#projects"
+                },{
+                    "label": "Feedbacks",
+                    "reference": "#feedbacks"
+                }
+            ]
+        },
         "name": "Ivan Dobrovolskyi",
         "position": "Front end developer",
         "sidebar": {

@@ -1,3 +1,5 @@
+-var nav = cv.navigation;
+
 doctype
 html
     head
@@ -6,6 +8,8 @@ html
         link(rel="stylesheet", href="css/cv.css")
         include templates/ga-script
     body
+        header
+            include templates/navigation
         aside
             include templates/cv/sidebar
         main

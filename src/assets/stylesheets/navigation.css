@@ -1,4 +1,4 @@
-a:hover{
+a, a:hover, a:visited{
     text-decoration: none;
 }
 #cd-nav ul {
