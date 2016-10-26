@@ -4,6 +4,7 @@ html
         title #{cv.name}
         link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700', rel='stylesheet', type='text/css')
         link(rel="stylesheet", href="css/cv.css")
+        include templates/ga-script
     body
         aside
             include templates/cv/sidebar
@@ -16,5 +17,4 @@ html
                 include templates/cv/sections/projects
                 include templates/cv/sections/feedbacks
                 include templates/cv/quote
-
                 script(src="js/main-cv.js")
