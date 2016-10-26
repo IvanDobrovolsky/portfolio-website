@@ -1,4 +1,4 @@
-section.projects#projects.text-center
+section.projects#projects
     div.timeline-section-title
         div.timeline-section-title--icon
         div.timeline-section-title--label
@@ -10,7 +10,7 @@ section.projects#projects.text-center
                 each project in cv.projects.items
                     div
                         div
-                            div.projects-gallery--item.text-left
+                            div.projects-gallery--item
                                 if !!project.website
                                     a.projects-gallery--item-name.text-center.block(href="#{project.website}", target="_blank") #{project.name}
                                 else
