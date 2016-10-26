@@ -6,7 +6,6 @@ var googleMapsHandler = require('./handlers/google-maps-handler');
 
 //Slider handlers
 var skillsSliderHandler = require('./handlers/skills-slider-handler');
-var projectsSliderHandler = require('./handlers/projects-slider-handler');
 var feedbacksSliderHandler = require('./handlers/feedbacks-slider-handler');
 
 jQuery(document).ready(function () {
@@ -16,7 +15,6 @@ jQuery(document).ready(function () {
     googleMapsHandler(jQuery);
 
     skillsSliderHandler(jQuery);
-    projectsSliderHandler(jQuery);
     feedbacksSliderHandler(jQuery);
 
     //Clearing slick carousel styles

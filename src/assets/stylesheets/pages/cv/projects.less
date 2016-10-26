@@ -1,0 +1,96 @@
+@import "../../palette";
+@import "../../custom";
+
+.projects {
+  .default-padding-vertical;
+
+  &-gallery {
+    &-container {
+      .full-width;
+      max-width: 617px;
+
+    }
+
+    &--item {
+
+      p {
+        .no-margin;
+        margin-top: 5px;
+      }
+
+      &-name {
+        .no-margin;
+        .default-margin-bottom;
+        .bold;
+        color: @text-color-secondary;
+        border-bottom: 1px solid @text-color-primary;
+        padding-bottom: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 20px;
+
+        &, &:hover, &:active, &:visited {
+          color: @text-color-secondary;
+          text-decoration: none;
+        }
+      }
+
+      &-description {
+        max-width: 500px;
+        .default-indentation;
+        font-size: 13px;
+        color: @text-color-secondary;
+        margin-bottom: 10px !important;
+      }
+
+      &-technology-stack {
+        line-height: 14px;
+
+        &-label {
+
+        }
+      }
+
+      &-responsibilities {
+        margin-top: 5px;
+
+        ul {
+          list-style: disc;
+          margin-left: 45px;
+        }
+
+      }
+
+      &-role {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &-label {
+    font-size: 13px;
+    color: @background-color-quaternary;
+    .no-margin;
+    margin-top: 15px;
+    padding: 2px 0;
+
+    span, li, a {
+      color: @text-color-secondary;
+      font-size: 13px;
+    }
+    a {
+      color: @text-color-tertiary;
+      .bold;
+      text-decoration: none;
+    }
+
+    &-icon {
+      .square(24px);
+      text-align: center;
+      line-height: 24px;
+      vertical-align: middle;
+      font-size: 15px;
+    }
+  }
+
+}

@@ -221,167 +221,6 @@
                 }
             ]
         },
-        "projects": {
-            "title": "Projects",
-            "items": [
-                {
-                    "name": "Greetz",
-                    "website": "https://www.greetz.nl/",
-                    "type": "commercial",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "AngularJS", "TypeScript", "Grunt", "Less", "Jade", "Karma", "Protractor", "Git", "Java"],
-                    "description": "Greetz is a dutch leader company in online real greeting cards and personal surprises such as flowers, balloons, photo, gifts, and cards",
-                    "responsibilities": [
-                        "Developing the client-side application within a distributed team",
-                        "Stand alone UI Component development",
-                        "Code refactoring",
-                        "Bug fixing",
-                        "Unit/E2E testing",
-                        "Code review"
-                    ],
-                    "company": "Levi9 IT Services",
-                    "role": "Middle FE Developer",
-                    "source": ""
-                },
-                {
-                    "name": "Kids&Teens at Sanoma",
-                    "website": "",
-                    "type": "commercial",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "TypeScript", "Webpack", "SCSS", "Karma", "Protractor", "Git", "Python", "Django Rest Framework"],
-                    "description": "Sanoma is a leading media group in the Nordic countries with operations in over 10 European countries, based in Helsinki. The group is also among the top five European magazine publishers.",
-                    "responsibilities": [
-                        "Developing the client-side application within a distributed team",
-                        "Stand alone UI Component development",
-                        "Code refactoring",
-                        "Bug fixing",
-                        "Unit/E2E testing",
-                        "Code review"
-                    ],
-                    "company": "Levi9 IT Services",
-                    "role": "Middle FE developer",
-                    "source": ""
-                },
-                {
-                    "name": "Internal Recruitment System",
-                    "website": "",
-                    "type": "commercial",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "React", "Redux", "Webpack", "MaterialUI", "Scala", "MySql", "ElasticSearch", "Git"],
-                    "description": "Internal project for HR managers",
-                    "responsibilities": [
-                        "Developing the client-side application",
-                        "Stand alone UI Component development",
-                        "Code refactoring",
-                        "Bug fixing",
-                        "Code review"
-                    ],
-                    "company": "Levi9 IT Services",
-                    "role": "Middle FE developer",
-                    "source": ""
-                },
-                {
-                    "name": "Britver",
-                    "website": "",
-                    "type": "commercial",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "PHP", "MySql"],
-                    "description": "Brtitver.com is a subscription service/online store of razors launched in Kyiv, Ukraine. Being one of the cofounders I took a post of CTO and was fully responsible for all technical stuff and issues",
-                    "responsibilities": [
-                        "Creating UI layout",
-                        "Adding animations",
-                        "Developing a blog",
-                        "Integrating billing systems and tracking tools",
-                        "Hosting and support",
-                        "Optimization and security ",
-                        "Code review",
-                        "Development process management"
-                    ],
-                    "company": "Freelance",
-                    "role": "FE developer and mentor",
-                    "source": ""
-                },
-                {
-                    "name": "Landscaping design",
-                    "website": "http://landshaft-design.com.ua/",
-                    "type": "commercial",
-                    "technologyStack": ["HTML5", "CSS3", "Less", "Jade", "jQuery", "Gulp", "Git"],
-                    "description": "Simple website-portfolio for landscaping designs. Implemented for a customer from Ukraine",
-                    "responsibilities": [
-                        "Developing UI components",
-                        "Code refactoring",
-                        "Bug fixing",
-                        "Code review",
-                        "Development process management"
-                    ],
-                    "company": "Freelance",
-                    "role": "FE developer and mentor",
-                    "source": ""
-                },
-                {
-                    "name": "Online shopping app",
-                    "website": "",
-                    "type": "educational",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "Typescript", "RxJS", "Webpack", "Node.js", "Express", "MongoDB",  "Git"],
-                    "description": "This is a simple online store of computers implemented using Angular2 to demonstrate how the framework brings the development to the absolutely new level and make the way we create apps more logical, professional, and straightforward. The back end part is done with Node.js stack.",
-                    "responsibilities": [
-
-                    ],
-                    "company": "",
-                    "role": "",
-                    "source": "https://github.com/IvanDobrovolsky/angular2-online-store"
-                },
-                {
-                    "name": "Realtime chatting app",
-                    "website": "",
-                    "type": "educational",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "Socket.io", "Git"],
-                    "description": "This app was implemented in order to get hands-on experience in developing realtime applications with websockets and Node.js stack",
-                    "responsibilities": [
-
-                    ],
-                    "company": "",
-                    "role": "",
-                    "source": "https://github.com/IvanDobrovolsky/realtime-chatting-app"
-                },
-                {
-                    "name": "Notes application",
-                    "website": "",
-                    "type": "educational",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "MongoDB", "Express.js", "AngularJS", "Node.js", "jQuery", "Git"],
-                    "description": "This simple notes application was implemented in order to get hands-on experience in developing apps using MEAN stack(MongoDB, Express.js, Angular.js and Node.js).",
-                    "responsibilities": [
-
-                    ],
-                    "company": "",
-                    "role": "",
-                    "source": "https://github.com/IvanDobrovolsky/notes-app"
-
-                },
-                {
-                    "name": "WebScraper application",
-                    "website": "",
-                    "type": "educational",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "Node.js", "Express.js", "AngularJS", "Gulp", "X-Ray", "Git"],
-                    "description": "This educational app was implemented for scraping and collecting data from websites that belong to CAD Department in National Technical University of Ukraine 'Kyiv Polytechnic Institute'. The app is easy to scale for scraping data from other resources",
-                    "responsibilities": [
-
-                    ],
-                    "company": "",
-                    "role": "",
-                    "source": "https://github.com/IvanDobrovolsky/web-scraper-app"
-                },
-                {
-                    "name": "Node.js tutorial",
-                    "website": "https://github.com/IvanDobrovolsky/web-scraper-app",
-                    "type": "educational",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "Node.js", "Express.js", "MongoDB"],
-                    "description": "Being a student we have launched a non-commercial educational project called cad-academy for younger students to learn IT related technologies. I was holding the course dedicated to Node.js.",
-                    "responsibilities": [
-
-                    ],
-                    "company": "",
-                    "role": "",
-                    "source": "https://github.com/IvanDobrovolsky/web-scraper-app"
-                }
-            ]
-        },
         "feedbacks": {
             "title": "Feedbacks",
             "items": [
@@ -754,7 +593,167 @@
                 }
             ]
         },
-        "projects": [],
+        "projects": {
+            "title": "Projects",
+            "items": [
+                {
+                    "name": "Greetz",
+                    "website": "https://www.greetz.nl/",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "AngularJS", "TypeScript", "Grunt", "Less", "Jade", "Karma", "Protractor", "Git", "Java"],
+                    "description": "Greetz is a dutch leader company in online real greeting cards and personal surprises such as flowers, balloons, photo, gifts, and cards",
+                    "responsibilities": [
+                        "Developing the client-side application within a distributed team",
+                        "Stand alone UI Component development",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Unit/E2E testing",
+                        "Code review"
+                    ],
+                    "company": "Levi9 IT Services",
+                    "role": "Middle FE Developer",
+                    "source": ""
+                },
+                {
+                    "name": "Kids&Teens at Sanoma",
+                    "website": "",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "TypeScript", "Webpack", "SCSS", "Karma", "Protractor", "Git", "Python", "Django Rest Framework"],
+                    "description": "Sanoma is a leading media group in the Nordic countries with operations in over 10 European countries, based in Helsinki. The group is also among the top five European magazine publishers.",
+                    "responsibilities": [
+                        "Developing the client-side application within a distributed team",
+                        "Stand alone UI Component development",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Unit/E2E testing",
+                        "Code review"
+                    ],
+                    "company": "Levi9 IT Services",
+                    "role": "Middle FE developer",
+                    "source": ""
+                },
+                {
+                    "name": "Internal Recruitment System",
+                    "website": "",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "React", "Redux", "Webpack", "MaterialUI", "Scala", "MySql", "ElasticSearch", "Git"],
+                    "description": "Internal project for HR managers",
+                    "responsibilities": [
+                        "Developing the client-side application",
+                        "Stand alone UI Component development",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Code review"
+                    ],
+                    "company": "Levi9 IT Services",
+                    "role": "Middle FE developer",
+                    "source": ""
+                },
+                {
+                    "name": "Britver",
+                    "website": "",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "PHP", "MySql"],
+                    "description": "Brtitver.com is a subscription service/online store of razors launched in Kyiv, Ukraine. Being one of the cofounders I took a post of CTO and was fully responsible for all technical stuff and issues",
+                    "responsibilities": [
+                        "Creating UI layout",
+                        "Adding animations",
+                        "Developing a blog",
+                        "Integrating billing systems and tracking tools",
+                        "Hosting and support",
+                        "Optimization and security ",
+                        "Code review",
+                        "Development process management"
+                    ],
+                    "company": "Freelance",
+                    "role": "FE developer and mentor",
+                    "source": ""
+                },
+                {
+                    "name": "Landscaping design",
+                    "website": "http://landshaft-design.com.ua/",
+                    "type": "commercial",
+                    "technologyStack": ["HTML5", "CSS3", "Less", "Jade", "jQuery", "Gulp", "Git"],
+                    "description": "Simple website-portfolio for landscaping designs. Implemented for a customer from Ukraine",
+                    "responsibilities": [
+                        "Developing UI components",
+                        "Code refactoring",
+                        "Bug fixing",
+                        "Code review",
+                        "Development process management"
+                    ],
+                    "company": "Freelance",
+                    "role": "FE developer and mentor",
+                    "source": ""
+                },
+                {
+                    "name": "Online shopping app",
+                    "website": "",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "Typescript", "RxJS", "Webpack", "Node.js", "Express", "MongoDB",  "Git"],
+                    "description": "This is a simple online store of computers implemented using Angular2 to demonstrate how the framework brings the development to the absolutely new level and make the way we create apps more logical, professional, and straightforward. The back end part is done with Node.js stack.",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/angular2-online-store"
+                },
+                {
+                    "name": "Realtime chatting app",
+                    "website": "",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "Socket.io", "Git"],
+                    "description": "This app was implemented in order to get hands-on experience in developing realtime applications with websockets and Node.js stack",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/realtime-chatting-app"
+                },
+                {
+                    "name": "Notes application",
+                    "website": "",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "MongoDB", "Express.js", "AngularJS", "Node.js", "jQuery", "Git"],
+                    "description": "This simple notes application was implemented in order to get hands-on experience in developing apps using MEAN stack(MongoDB, Express.js, Angular.js and Node.js).",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/notes-app"
+
+                },
+                {
+                    "name": "WebScraper application",
+                    "website": "",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "Node.js", "Express.js", "AngularJS", "Gulp", "X-Ray", "Git"],
+                    "description": "This educational app was implemented for scraping and collecting data from websites that belong to CAD Department in National Technical University of Ukraine 'Kyiv Polytechnic Institute'. The app is easy to scale for scraping data from other resources",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/web-scraper-app"
+                },
+                {
+                    "name": "Node.js tutorial",
+                    "website": "https://github.com/IvanDobrovolsky/web-scraper-app",
+                    "type": "educational",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript",  "Node.js", "Express.js", "MongoDB"],
+                    "description": "Being a student we have launched a non-commercial educational project called cad-academy for younger students to learn IT related technologies. I was holding the course dedicated to Node.js.",
+                    "responsibilities": [
+
+                    ],
+                    "company": "",
+                    "role": "",
+                    "source": "https://github.com/IvanDobrovolsky/web-scraper-app"
+                }
+            ]
+        },
         "certificates": [],
         "quote": {
             "text": "Life is like riding a bike, to keep your balance you must keep moving",
