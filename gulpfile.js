@@ -33,10 +33,13 @@ const config = {
                 'src/assets/images/**/*.svg'
             ],
             fonts: [
-                'node_modules/font-awesome/fonts/**/*.*',
+                'node_modules/font-awesome/fonts/**/*.*'
             ],
             js: [
                 'src/assets/scripts/**/*.js'
+            ],
+            documents: [
+                'src/assets/documents/**/*.pdf'
             ]
         },
         entry: {
@@ -132,6 +135,9 @@ gulp.task('copy-assets', ['scripts'], () => {
 
     gulp.src(config.files.all.fonts)
         .pipe(gulp.dest('./build/fonts'));
+
+    gulp.src(config.files.all.documents)
+        .pipe(gulp.dest('./build/documents'));
 });
 
 //Gulp dev-server task: starts express server

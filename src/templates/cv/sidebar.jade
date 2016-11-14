@@ -2,6 +2,9 @@ content#sidebar.sidebar.default-padding
     h2.sidebar-title #{cv.name.split(' ').shift()}
         strong #{cv.name.split(' ').pop()}
     h3.sidebar-subtitle #{cv.position}
+    a.sidebar-download-cv-button(href="#{documents.cv.path + documents.cv.fileName}", target="_blank")
+        i.sidebar-download-cv-button--icon.fa.fa-download
+        span.sidbar-download-cv-button--label Open doc version
     nav.sidebar-navigation
         ul.sidebar-navigation-list
             each navItem in cv.sidebar.nav

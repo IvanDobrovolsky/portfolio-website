@@ -843,5 +843,11 @@
         "copyright": {
             "title": "2016 Kyiv. Made by Ivan Dobrovolskyi"
         }
+    },
+    "documents": {
+        "cv": {
+            "fileName": "dobrovolskyi-cv.pdf",
+            "path": "/documents/"
+        }
     }
 }
