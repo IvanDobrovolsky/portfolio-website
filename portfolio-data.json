@@ -409,17 +409,61 @@
             "title": "Work experience",
             "items": [
                 {
-                    "company": "Levi9 IT Services",
+                    "company": "Levi9 IT Services for Sanoma",
                     "position": "Front end developer",
                     "description": {
-                        "intro": "Levi9 is a Dutch IT Services company with currently over 750 highly educated and skilled IT professionals in Eastern and Central Europe. I have been working in a remote team on software products for Dutch and International clients",
+                        "intro": "Sanoma is a leading media group in the Nordic countries with operations in over 10 European countries, based in Helsinki. The group is also among the top five European magazine publishers.Tina.nl - is one of its products and the one my team was responsible for. The app is developed from scratch using modern Angular2 stack",
                         "responsibilities": [
-                            "Implementing client-side javascript applications",
-                            "Creating cross-browser and pixel-perfect UIs",
-                            "Code testing",
-                            "Code review"
+                            "UI Component development",
+                            "Implementing view navigation and routing.",
+                            "Integrating the tools for tracking, monitoring, and analytics",
+                            "Code refactoring and improvement",
+                            "Code review",
+                            "Code deployment",
+                            "Communication with team members and managers",
+                            "Participating in Scrum processes",
+                            "Bug fixing",
+                            "Unit/e2e testing",
+                            "Mentoring junior FE developers"
                         ],
-                        "technologyStack": ["HTML5","CSS3","JavaScript","TypeScript","Angular1","React", "Angular2", "Gulp/Grunt/Webpack", "and more..."]
+                        "technologyStack": ["HTML5","CSS3","JavaScript","Angular2","TypeScript","Webpack","Angular-cli","SCSS","Karma","Protractor","Git"]
+                    },
+                    "period": "September 2015 - Current"
+                },
+                {
+                    "company": "Levi9 IT Services for Greetz",
+                    "position": "Front end developer",
+                    "description": {
+                        "intro": "Greetz is a Dutch leader company in online real greeting cards and personal surprises such as flowers, balloons, photos, gifts, and cards. My team was responsible for developing a CMS platform, based on Hippo CMS, written with Java stack. Being the only one FE Developer within the team I was developing a bunch of UI Components/Templates using Angular1 and TypeScript as main client-side framework and programming language respectively",
+                        "responsibilities": [
+                            "Developing CMS widgets and components",
+                            "Creating animations and interactive UI",
+                            "Code refactoring and improvement",
+                            "Communication with team members and managers",
+                            "Participating in Scrum processes",
+                            "Code deployment",
+                            "Code review",
+                            "Bug fixing"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","JavaScript","Angular1","TypeScript","Grunt","Less","Jade","Git"]
+                    },
+                    "period": "September 2015 - Current"
+                },
+                {
+                    "company": "Levi9 IT Services internal",
+                    "position": "Front end developer",
+                    "description": {
+                        "intro": "CRM application developed  for HR managers within a big international IT company",
+                        "responsibilities": [
+                            "UI Component development",
+                            "Adding view navigation and routing",
+                            "Code refactoring and improvement",
+                            "Communication with team members and managers",
+                            "Participating in Scrum processes",
+                            "Code review",
+                            "Bug fixing"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","JavaScript","React","Flux","Webpack","MaterialUI"]
                     },
                     "period": "September 2015 - Current"
                 },
