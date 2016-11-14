@@ -425,9 +425,9 @@
                 },
                 {
                     "company": "Britver",
-                    "position": "CTO",
+                    "position": "Software developer",
                     "description": {
-                        "intro": "Brtitver.com is a subscription service/online store of razors launched in Kyiv, Ukraine. Being one of the co-founders I took a post of CTO and was fully responsible for all technical stuff and issues. ",
+                        "intro": "Britver is a subscription service/online store of razors launched in Kyiv, Ukraine. Being one of the co-founders I took a post of CTO and was fully responsible for all technical stuff and issues. ",
                         "responsibilities": [
                             "Creating UI layout",
                             "Adding animations",
