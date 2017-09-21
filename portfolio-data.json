@@ -124,8 +124,9 @@
                     "icon": "img/skills-icons/code.png",
                     "stack": [
                         "HTML5",
+                        "CSS3",
                         "JavaScript",
-                        "Angular1/Angular2",
+                        "AngularJS/Angular",
                         "React.js"
                     ],
                     "description": "Using modern Front end technology stack allows me to create superior and progressive client-side applications. Moreover, having solid experience of working with each of them will help me to choose the best solution for customer's business"
@@ -134,9 +135,7 @@
                     "title": "Interactive UI/UX",
                     "icon": "img/skills-icons/responsive-design.png",
                     "stack": [
-                        "Adobe Photoshop/Illustrator",
                         "Sketch",
-                        "CSS3",
                         "jQuery",
                         "Semantic UI/Bootstrap/Foundation"
                     ],
@@ -153,7 +152,7 @@
                         "REST",
                         "HTTP",
                         "Websockets",
-                        "Basics of Java/Python"
+                        "Understanding of backend principles"
                     ],
                     "description": "Being familiar with popular Back end technologies and having decent experience of Back end development using Node.js stack allows me to create high-performance and well-secured Full-stack and Isomorphic applications. Knowledge of Back end technologies significantly helps me to collaborate with other Back end developers within a team and be able to resolve issues in critical situations"
                 },
@@ -205,7 +204,8 @@
                     "stack": [
                         "SCRUM",
                         "Kanban",
-                        "Spotify Model",
+                        "XP",
+                        "Lead",
                         "Waterflow",
                         "Jira/Confluence"
                     ],
@@ -325,7 +325,7 @@
         "profile": {
             "title": "Profile",
             "objectives": {
-                "header": "Software developer with almost 3 years of industry expertise with Front end and other related technologies. Having:",
+                "header": "Software developer with almost 5 years of industry expertise with Front end and other related technologies. Having:",
                 "qualities": [
                     "Computer Science degree",
                     "Solid experience of creating web UIs",
@@ -343,10 +343,6 @@
                 {
                     "name": "full name",
                     "value": "Ivan Dobrovolskyi"
-                },
-                {
-                    "name": "born",
-                    "value": "31 Mar 1994 - Kyiv, Ukraine"
                 },
                 {
                     "name": "mobile",
@@ -409,10 +405,75 @@
             "title": "Work experience",
             "items": [
                 {
+                    "company": "SoftServe - Networks monitoring platform",
+                    "position": "Senior Front End developer & Team leader",
+                    "description": {
+                        "intro": "Development of the UI framework which is consumed by the huge networking platform with thousands of users and integrated within a dozen of modules. ",
+                        "responsibilities": [
+                            "Managing the team and processes",
+                            "Architecture and design",
+                            "Knowledge sharing, coaching/mentoring",
+                            "Requirements analysis and clarification",
+                            "Estimation, prioritization, and distribution of tasks",
+                            "Development",
+                            "Integrating framework components into app modules",
+                            "Unit testing/e2e/performance tests coverage",
+                            "Bug fixing",
+                            "Code review",
+                            "Development build and deployment scripts",
+                            "Product support and documentation maintenance"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","JavaScript","AngularJS", "Angular","TypeScript","Webpack","LESS","Karma","Protractor","Git", "Chrome dev tools"]
+                    },
+                    "period": "10 months"
+                },
+                {
+                    "company": "SoftServe - Technical expert",
+                    "position": "Technical Leader/Team Leader/Technical Expert",
+                    "description": {
+                        "intro": "Internal",
+                        "responsibilities": [
+                            "Interviewing candidates",
+                            "Mentoring junior/trainee developers",
+                            "Participation in IT-Academy as an technical expert",
+                            "Workshops and tech-talks",
+                            "Project complexity estimation",
+                            "Building Work Breakdown Structures"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","JavaScript","AngularJS", "Angular","TypeScript","Webpack","LESS","Karma","Protractor","Git", "Chrome dev tools"]
+                    },
+                    "period": "4 months"
+                },
+                {
+                    "company": "Lessons platform",
+                    "position": "Senior Front End developer & Team leader",
+                    "description": {
+                        "intro": "Growing and developing European start-up company presents a global platform for teachers, coaches, trainers and tutors and their customers. Implemented from scratch using ‘mobile first’ approach and User-friendly UI/UX in mind.",
+                        "responsibilities": [
+                            "Managing the team and processes",
+                            "Architecture and design",
+                            "Knowledge sharing, coaching/mentoring",
+                            "Requirements analysis and clarification",
+                            "Estimation, prioritization, and distribution of tasks",
+                            "Development",
+                            "Integrating framework components into app modules",
+                            "Unit testing/e2e/performance tests coverage",
+                            "Bug fixing",
+                            "Code review",
+                            "Development build and deployment scripts",
+                            "Product support and documentation maintenance",
+                            "Performance optimization",
+                            "Internationalization"
+                        ],
+                        "technologyStack": ["HTML5","CSS3","JavaScript","Angular","TypeScript","Webpack","LESS","Karma","Protractor","Git", "Chrome dev tools"]
+                    },
+                    "period": "8 months"
+                },
+                {
                     "company": "Levi9 IT Services for Sanoma",
                     "position": "Front end developer",
                     "description": {
-                        "intro": "Sanoma is a leading media group in the Nordic countries with operations in over 10 European countries, based in Helsinki. The group is also among the top five European magazine publishers.Tina.nl - is one of its products and the one my team was responsible for. The app is developed from scratch using modern Angular2 stack",
+                        "intro": "Sanoma is a leading media group in the Nordic countries with operations in over 10 European countries, based in Helsinki. The group is also among the top five European magazine publishers.Tina.nl - is one of its products and the one my team was responsible for. The app is developed from scratch using modern Angular stack",
                         "responsibilities": [
                             "UI Component development",
                             "Implementing view navigation and routing.",
@@ -426,7 +487,7 @@
                             "Unit/e2e testing",
                             "Mentoring junior FE developers"
                         ],
-                        "technologyStack": ["HTML5","CSS3","JavaScript","Angular2","TypeScript","Webpack","Angular-cli","SCSS","Karma","Protractor","Git"]
+                        "technologyStack": ["HTML5","CSS3","JavaScript","Angular","TypeScript","Webpack","Angular-cli","SCSS","Karma","Protractor","Git"]
                     },
                     "period": "4 months"
                 },
@@ -434,7 +495,7 @@
                     "company": "Levi9 IT Services for Greetz",
                     "position": "Front end developer",
                     "description": {
-                        "intro": "Greetz is a Dutch leader company in online real greeting cards and personal surprises such as flowers, balloons, photos, gifts, and cards. My team was responsible for developing a CMS platform, based on Hippo CMS, written with Java stack. Being the only one FE Developer within the team I was developing a bunch of UI Components/Templates using Angular1 and TypeScript as main client-side framework and programming language respectively",
+                        "intro": "Greetz is a Dutch leader company in online real greeting cards and personal surprises such as flowers, balloons, photos, gifts, and cards. My team was responsible for developing a CMS platform, based on Hippo CMS, written with Java stack. Being the only one FE Developer within the team I was developing a bunch of UI Components/Templates using Angular and TypeScript as main client-side framework and programming language respectively",
                         "responsibilities": [
                             "Developing CMS widgets and components",
                             "Creating animations and interactive UI",
@@ -445,7 +506,7 @@
                             "Code review",
                             "Bug fixing"
                         ],
-                        "technologyStack": ["HTML5","CSS3","JavaScript","Angular1","TypeScript","Grunt","Less","Jade","Git"]
+                        "technologyStack": ["HTML5","CSS3","JavaScript","AngularJS","TypeScript","Grunt","Less","Jade","Git"]
                     },
                     "period": "10 months"
                 },
@@ -468,10 +529,10 @@
                     "period": "4 months"
                 },
                 {
-                    "company": "Britver",
+                    "company": "Online store of razors",
                     "position": "Software developer",
                     "description": {
-                        "intro": "Britver is a subscription service/online store of razors launched in Kyiv, Ukraine. Being one of the co-founders I took a post of CTO and was fully responsible for all technical stuff and issues. ",
+                        "intro": "Web application is a subscription service/online store. Being one ofthe co-founders, I wasfully responsible for all technical stuff and issues.",
                         "responsibilities": [
                             "Creating UI layout",
                             "Adding animations",
@@ -530,7 +591,7 @@
                             "icon": "fa fa-code"
                         },
                         {
-                            "name": "JavaScript frameworks and libraries: Angular2, Angular1, ReactJS, RxJS, jQuery",
+                            "name": "JavaScript frameworks and libraries: Angular, AngularJS, ReactJS, RxJS, jQuery",
                             "icon": "fa fa-archive"
                         },
                         {
@@ -578,7 +639,7 @@
                             "icon": "fa fa-check-circle"
                         },
                         {
-                            "name": " Agile software development(Scrum)",
+                            "name": " Agile(Scrum), XP, Lean, Pair programming, Wate",
                             "icon": "fa fa-thumb-tack"
                         }
                     ]
@@ -644,7 +705,7 @@
                     "name": "Kids&Teens at Sanoma",
                     "website": "",
                     "type": "commercial",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "TypeScript", "Webpack", "SCSS", "Karma", "Protractor", "Git", "Python", "Django Rest Framework"],
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular", "TypeScript", "Webpack", "SCSS", "Karma", "Protractor", "Git", "Python", "Django Rest Framework"],
                     "description": "Sanoma is a leading media group in the Nordic countries with operations in over 10 European countries, based in Helsinki. The group is also among the top five European magazine publishers.",
                     "responsibilities": [
                         "Developing the client-side application within a distributed team",
@@ -716,14 +777,14 @@
                     "name": "Online shopping app",
                     "website": "",
                     "type": "educational",
-                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular2", "Typescript", "RxJS", "Webpack", "Node.js", "Express", "MongoDB",  "Git"],
-                    "description": "This is a simple online store of computers implemented using Angular2 to demonstrate how the framework brings the development to the absolutely new level and make the way we create apps more logical, professional, and straightforward. The back end part is done with Node.js stack.",
+                    "technologyStack": ["HTML5", "CSS3", "JavaScript", "Angular", "Typescript", "RxJS", "Webpack", "Node.js", "Express", "MongoDB",  "Git"],
+                    "description": "This is a simple online store of computers implemented using Angular to demonstrate how the framework brings the development to the absolutely new level and make the way we create apps more logical, professional, and straightforward. The back end part is done with Node.js stack.",
                     "responsibilities": [
 
                     ],
                     "company": "",
                     "role": "",
-                    "source": "https://github.com/IvanDobrovolsky/angular2-online-store"
+                    "source": "https://github.com/IvanDobrovolsky/Angular-online-store"
                 },
                 {
                     "name": "Realtime chatting app",
